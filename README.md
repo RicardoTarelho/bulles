@@ -16,7 +16,7 @@ its bubbles flip to English instead.
 in English or Portuguese. Those translations were made with Claude for Bulles.
 
 - *Contes de Perrault* by Charles Perrault (1697), B1–B2: 4 tales (Little Red Riding Hood, The Fairies, Puss in Boots, Cinderella, or the Little Glass Slipper).
-- *Les Malheurs de Sophie* by Comtesse de Ségur (1858), A2: 15 of 22 chapters so far.
+- *Les Malheurs de Sophie* by Comtesse de Ségur (1858), A2: 18 of 22 chapters so far.
 - *Contes d’Andersen* by Hans Christian Andersen (1876, French translation by David Soldi), A2–B1: 5 tales (The Princess and the Pea, The Emperor's New Clothes, The Little Match Girl, The Steadfast Tin Soldier, The Ugly Duckling).
 - *Contes de Grimm* by Jacob et Wilhelm Grimm (1864, French translation by Frédéric Baudry), B1: 4 tales (The Town Musicians of Bremen, The Hare and the Hedgehog, Lucky Hans, The Fisherman and His Wife).
 - *Contes de Daudet* by Alphonse Daudet (1869), B1–B2: 4 stories (Monsieur Seguin's Goat, Master Cornille's Secret, The Stars, The Last Lesson).

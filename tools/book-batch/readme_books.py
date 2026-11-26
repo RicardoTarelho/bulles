@@ -4,8 +4,12 @@ readme, libjs = sys.argv[1], sys.argv[2]
 src = open(libjs, encoding='utf-8').read()
 lib = json.loads(src[src.index('(')+1: src.rindex(')')])
 books = lib['books']
-lines = ["**Books**, in French, from public-domain editions on Wikisource. Tap any sentence to see it",
-         "in English or Portuguese. Those translations were made with Claude for Bulles.", ""]
+NAMES = {"fr": "French", "en": "English", "pt": "Portuguese", "es": "Spanish"}
+every = [l for l in NAMES if all(l in b["langs"] for b in books)]
+lst = lambda ls: ", ".join(NAMES[l] for l in ls[:-1]) + " or " + NAMES[ls[-1]]
+lines = ["**Books**, from public-domain French editions on Wikisource. Read any of them in " + lst(every) + ",",
+         "and tap a sentence to see it in another of those languages. The French is the original;",
+         "the other languages were translated sentence by sentence with Claude for Bulles.", ""]
 for b in books:
     unit = b.get('unit') or 'tales'
     n = len(b['chapters']); tot = b.get('total', n)

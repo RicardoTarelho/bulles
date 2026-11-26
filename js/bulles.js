@@ -45,6 +45,7 @@ syncTheme();
 
 /* ---------- state ---------- */
 let langs = store.get('langs', null);       // {learn, know}
+if (langs && !(LIB.langs[langs.learn] && LIB.langs[langs.know])) langs = null;   // a language that was retired
 let words = store.get('words', []);
 let progress = store.get('progress', {});   // episodeId -> furthest page index
 let lastEp = store.get('last', {});         // seriesId -> episodeId
@@ -128,22 +129,21 @@ function drawLibrary(){
       <div class="meta">${lvTag(s.level)}<span>by ${esc(s.author)}</span><span>${eps.length} episodes</span><span>${read} read</span></div>
       <div class="prog"><i style="width:${eps.length ? Math.round(read / eps.length * 100) : 0}%"></i></div></div></a>`;
   }).join('');
-  const books = (LIB.books || []).filter(b => b.lang === langs.learn);
+  const books = (LIB.books || []).filter(b => b.langs.includes(langs.learn));
   $('#bookshelf').innerHTML = books.map(b => {
     const done = b.chapters.filter(c => chapterPct(b, c) >= 100).length;
     return `<a class="card" href="#book-${esc(b.id)}">
       <div class="cover">${bookCover(b)}</div>
-      <div class="cbody"><h2 lang="${esc(b.lang)}">${esc(b.title[b.lang])}</h2><p class="k">${esc(T(b.title, langs.know))} · ${esc(b.author)}</p>
+      <div class="cbody"><h2 lang="${esc(langs.learn)}">${esc(T(b.title, langs.learn))}</h2><p class="k">${esc(T(b.title, langs.know))} · ${esc(b.author)}</p>
       <div class="meta">${lvTag(b.level)}<span>${unitText(b)}</span><span>${done} read</span></div>
       <div class="prog"><i style="width:${Math.round(done / b.chapters.length * 100)}%"></i></div></div></a>`;
   }).join('');
-  const others = (LIB.books || []).filter(b => b.lang !== langs.learn);
-  $('#bookNote').textContent = books.length ? '' : others.length ? 'The first book, ' + others[0].title[others[0].lang] + ', is in ' + LN(others[0].lang) + '. Choose ' + LN(others[0].lang) + ' as the language you\'re learning to read it.' : '';
+  $('#bookNote').textContent = books.length ? '' : 'There are no books in ' + LN(langs.learn) + ' yet.';
   fillCovers();
 }
 const unitText = b => b.chapters.length + (b.total > b.chapters.length ? ' of ' + b.total : '') + ' ' + (b.unit || 'tales');
 function bookCover(b){
-  const t = b.title[b.lang], m = t.match(/^(.*?)\s(de |d’)(.*)$/);
+  const t = T(b.title, langs.learn), m = t.match(/^(.*?)\s(de |d’|di )(.*)$/);
   const l1 = m ? m[1] : t, l2 = m ? m[2] + m[3] : '';
   return `<svg viewBox="0 0 288 200" role="img" aria-label="${esc(t)}"><rect width="288" height="200" fill="${esc(b.color || '#7b1e2c')}"/><rect x="12" y="12" width="264" height="176" fill="none" stroke="#e7c77d" stroke-width="2"/><rect x="19" y="19" width="250" height="162" fill="none" stroke="#e7c77d" stroke-width="1" opacity=".55"/>
     <path d="M144 34l5 9 10 1-7 7 2 10-10-5-10 5 2-10-7-7 10-1z" fill="#e7c77d"/>
@@ -345,26 +345,28 @@ function drawCredits(s, e){
 
 /* ---------- books ---------- */
 const bookById = id => (LIB.books || []).find(b => b.id === id);
-const bookKnow = b => b.langs.includes(langs.know) && langs.know !== b.lang ? langs.know : 'en';
+const bookKnow = b => b.langs.includes(langs.know) && langs.know !== langs.learn ? langs.know : b.langs.find(l => l !== langs.learn);
+/* a book is read in the learner's language: the French original, or a sentence-by-sentence translation of it */
+const origNote = b => langs.learn === b.lang ? '' : 'Translated from the French ' + (b.translator ? '(itself a translation by ' + b.translator + ') ' : '') + 'with Claude for Bulles.';
 const chapterPct = (b, c) => { const p = progress['book:' + b.id + '/' + c.id]; return p ? p.pct : 0; };
 const chapterFile = (b, c) => inject(b.id + '/' + c.id + ':text', 'data/books/' + b.id + '/' + c.id + '.js');
 
 function drawBook(id){
   const b = bookById(id);
-  if (!b || b.lang !== langs.learn) { location.hash = 'library'; return; }
-  const know = bookKnow(b);
-  $('#bTitle').textContent = b.title[b.lang]; $('#bTitle').lang = b.lang;
-  $('#bBlurb').innerHTML = esc(T(b.blurb, langs.know) + ' ' + b.author + (b.translator ? ', translated into French by ' + b.translator : '') + ', ' + b.year + '.')
+  if (!b || !b.langs.includes(langs.learn)) { location.hash = 'library'; return; }
+  const know = bookKnow(b), rl = langs.learn;
+  $('#bTitle').textContent = T(b.title, rl); $('#bTitle').lang = rl;
+  $('#bBlurb').innerHTML = esc(T(b.blurb, langs.know) + ' ' + b.author + (b.translator && rl === b.lang ? ', translated into French by ' + b.translator : '') + ', ' + b.year + '.' + (origNote(b) ? ' ' + origNote(b) : ''))
     + (b.total > b.chapters.length ? ' <em>' + esc(unitText(b)) + ' so far, more coming.</em>' : '') + '<br>' + lvTag(b.level)
     + (know !== langs.know ? `<span class="swap">Sentences flip to ${esc(LN(know))}</span>` : '');
   const cont = b.chapters.find(c => { const p = chapterPct(b, c); return p > 0 && p < 100; }) || b.chapters.find(c => chapterPct(b, c) < 100) || b.chapters[0];
   $('#bGo').href = '#tale-' + b.id + '-' + cont.id;
-  $('#bGo').textContent = (chapterPct(b, cont) > 0 ? 'Continue: ' : 'Start: ') + T(cont.title, b.lang);
+  $('#bGo').textContent = (chapterPct(b, cont) > 0 ? 'Continue: ' : 'Start: ') + T(cont.title, rl);
   $('#chaps').innerHTML = b.chapters.map((c, i) => {
     const p = chapterPct(b, c);
     return `<li><a class="chap" href="#tale-${esc(b.id)}-${esc(c.id)}">
       <span class="cn">${i + 1}</span>
-      <div class="einfo"><h3 lang="${esc(b.lang)}">${esc(T(c.title, b.lang))}</h3><p class="k">${esc(T(c.title, know))}</p>
+      <div class="einfo"><h3 lang="${esc(rl)}">${esc(T(c.title, rl))}</h3><p class="k">${esc(T(c.title, know))}</p>
       <p class="meta">${lvTag(c.level)}<span>about ${c.minutes} min</span><span>${p >= 100 ? 'Read' : p > 0 ? p + '% read' : 'New'}</span></p>
       <div class="prog"><i style="width:${p}%"></i></div></div></a></li>`;
   }).join('');
@@ -374,27 +376,27 @@ function drawBook(id){
 let tale = null, taleObs = null, sentTap = null;
 async function openTale(bookId, chapId){
   const b = bookById(bookId), c = b && b.chapters.find(x => x.id === chapId);
-  if (!c || b.lang !== langs.learn) { location.hash = 'library'; return; }
-  const know = bookKnow(b), token = ++openToken;
+  if (!c || !b.langs.includes(langs.learn)) { location.hash = 'library'; return; }
+  const know = bookKnow(b), rl = langs.learn, token = ++openToken;
   closeBubble();
   $('#tBack').href = '#book-' + b.id;
-  $('#tTitle').textContent = T(c.title, b.lang); $('#tTitle').lang = b.lang;
+  $('#tTitle').textContent = T(c.title, rl); $('#tTitle').lang = rl;
   $('#tHint').textContent = 'Tap any sentence you don\'t understand to see it in ' + LN(know) + '.';
   $('#tAll').checked = false; $('#text').classList.remove('all');
   $('#text').innerHTML = '<p class="loading"><span class="spin"></span>Opening…</p>'; $('#tEnd').innerHTML = '';
   let d;
   try { d = await chapterFile(b, c); } catch(e) { $('#text').innerHTML = '<p class="loading">This tale could not be loaded. Check your connection and try again.</p>'; return; }
   if (token !== openToken) return;
-  tale = {b, c, know, d, flat: []};
-  $('#text').innerHTML = `<h2 class="ttl" lang="${esc(b.lang)}">${esc(T(c.title, b.lang))}</h2>` + d.paras.map((p, pi) =>
-    `<p class="${p.poem ? 'poem' : 'para'}" data-p="${pi}" lang="${esc(b.lang)}">${p.s.map(s => {
+  tale = {b, c, know, rl, d, flat: []};
+  $('#text').innerHTML = `<h2 class="ttl" lang="${esc(rl)}">${esc(T(c.title, rl))}</h2>` + d.paras.map((p, pi) =>
+    `<p class="${p.poem ? 'poem' : 'para'}" data-p="${pi}" lang="${esc(rl)}">${p.s.map(s => {
       const k = tale.flat.push(s) - 1;
-      return `<span class="s" data-i="${k}" tabindex="0" role="button">${esc(s[b.lang])}</span><span class="tr" lang="${esc(know)}">${esc(s[know] || s.en)}</span>`;
-    }).join(' ')}</p>`.replace('">', '">' + (p.who ? (() => { const k = tale.flat.push(p.who) - 1; return `<span class="s wl" data-i="${k}" tabindex="0" role="button">${esc(p.who[b.lang])}</span><span class="tr wlt">${esc(p.who[know] || p.who.en)}</span>`; })() : ''))).join('');
+      return `<span class="s" data-i="${k}" tabindex="0" role="button">${esc(s[rl])}</span><span class="tr" lang="${esc(know)}">${esc(s[know] || s.en)}</span>`;
+    }).join(' ')}</p>`.replace('">', '">' + (p.who ? (() => { const k = tale.flat.push(p.who) - 1; return `<span class="s wl" data-i="${k}" tabindex="0" role="button">${esc(p.who[rl])}</span><span class="tr wlt">${esc(p.who[know] || p.who.en)}</span>`; })() : ''))).join('');
   const i = b.chapters.indexOf(c), next = b.chapters[i + 1];
   $('#tEnd').innerHTML = `<h2>The end</h2><dl><dt>Text</dt><dd><a href="${esc(b.source)}">${esc(b.sourceName)}</a> · ${esc(b.license)}</dd>
-    <dt>Author</dt><dd>${esc(b.author)}, ${b.year}${b.translator ? ' · French translation by ' + esc(b.translator) : ''}</dd><dt>${esc(LN(know))}</dt><dd>${esc(b.translations)}</dd></dl>
-    <div class="next"><a href="#book-${esc(b.id)}">Contents</a>${next ? `<a class="go" href="#tale-${esc(b.id)}-${esc(next.id)}">Next: ${esc(T(next.title, b.lang))}</a>` : ''}</div>`;
+    <dt>Author</dt><dd>${esc(b.author)}, ${b.year}${b.translator ? ' · French translation by ' + esc(b.translator) : ''}</dd>${origNote(b) ? `<dt>${esc(LN(rl))}</dt><dd>${esc(origNote(b))}</dd>` : ''}<dt>${esc(LN(know))}</dt><dd>${esc(know === b.lang ? 'The French original.' : b.translations)}</dd></dl>
+    <div class="next"><a href="#book-${esc(b.id)}">Contents</a>${next ? `<a class="go" href="#tale-${esc(b.id)}-${esc(next.id)}">Next: ${esc(T(next.title, rl))}</a>` : ''}</div>`;
   const key = 'book:' + b.id + '/' + c.id, paras = d.paras.length;
   if (taleObs) taleObs.disconnect();
   taleObs = new IntersectionObserver(ents => {
@@ -413,7 +415,7 @@ function openBubble(span){
   document.querySelectorAll('#text .s.on').forEach(x => x.classList.remove('on'));
   span.classList.add('on');
   $('#sbK').textContent = s[tale.know] || s.en; $('#sbK').lang = tale.know;
-  const has = words.some(w => w.l === s[tale.b.lang]);
+  const has = words.some(w => w.l === s[tale.rl]);
   $('#sbSave').textContent = has ? 'Saved' : 'Save'; $('#sbSave').disabled = has;
   sentTap = s;
   bub.hidden = false; bub.classList.remove('below');
@@ -439,8 +441,8 @@ window.addEventListener('resize', () => { if (!$('#sbub').hidden) closeBubble();
 $('#sbClose').addEventListener('click', closeBubble);
 $('#sbSave').addEventListener('click', () => {
   if (!sentTap || !tale) return;
-  words.unshift({l: sentTap[tale.b.lang], k: sentTap[tale.know] || sentTap.en, who: '', lang: tale.b.lang, klang: tale.know,
-    src: tale.b.title[tale.b.lang] + ', ' + T(tale.c.title, tale.b.lang)});
+  words.unshift({l: sentTap[tale.rl], k: sentTap[tale.know] || sentTap.en, who: '', lang: tale.rl, klang: tale.know,
+    src: T(tale.b.title, tale.rl) + ', ' + T(tale.c.title, tale.rl)});
   store.set('words', words); syncHeader();
   $('#sbSave').textContent = 'Saved'; $('#sbSave').disabled = true;
 });

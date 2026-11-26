@@ -8,12 +8,12 @@ and it flips into a language you already know, right on the page.
 ## Current library
 
 **Pepper&Carrot** by David Revoy: all 39 published episodes, in French, English,
-Portuguese, Spanish, German and Italian. Any of these can be the language you
-learn or the one you know. Episode 39 has no Portuguese or Italian translation yet, so for those
-its bubbles flip to English instead.
+Portuguese and Spanish. Any of these can be the language you learn or the one
+you know.
 
-**Books**, in French, from public-domain editions on Wikisource. Tap any sentence to see it
-in English or Portuguese. Those translations were made with Claude for Bulles.
+**Books**, from public-domain French editions on Wikisource. Read any of them in French, English or Portuguese,
+and tap a sentence to see it in another of those languages. The French is the original;
+the other languages were translated sentence by sentence with Claude for Bulles.
 
 - *Contes de Perrault* by Charles Perrault (1697), B1–B2: 4 tales (Little Red Riding Hood, The Fairies, Puss in Boots, Cinderella, or the Little Glass Slipper).
 - *Les Malheurs de Sophie* by Comtesse de Ségur (1858), A2: 22 chapters.
@@ -35,7 +35,7 @@ or hard. `tools/levels.py` explains how the levels are estimated.
 | `data/library.js` | The series, its episodes, titles in every language, and credits. |
 | `data/covers.js` | The small cover pictures for the episode list. |
 | `data/episodes/epNN/pages.js` | One episode's artwork, plus where every bubble is and what it says in each language. |
-| `data/episodes/epNN/<language>.js` | One language's speech bubbles for that episode (fr, en, pt, es, de, it). |
+| `data/episodes/epNN/<language>.js` | One language's speech bubbles for that episode (fr, en, pt, es). |
 | `data/books/<book>/<chapter>.js` | One book chapter or tale: the French sentences with their English and Portuguese translations. |
 | `tools/` | The scripts that rebuild `data/` from the sources. |
 | `CREDITS.md` | Who made the comics, and the licence. |

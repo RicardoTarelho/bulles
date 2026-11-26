@@ -20,6 +20,7 @@ in English or Portuguese. Those translations were made with Claude for Bulles.
 - *Contes d’Andersen* by Hans Christian Andersen (1876, French translation by David Soldi), A2–B1: 5 tales (The Princess and the Pea, The Emperor's New Clothes, The Little Match Girl, The Steadfast Tin Soldier, The Ugly Duckling).
 - *Contes de Grimm* by Jacob et Wilhelm Grimm (1864, French translation by Frédéric Baudry), B1: 4 tales (The Town Musicians of Bremen, The Hare and the Hedgehog, Lucky Hans, The Fisherman and His Wife).
 - *Contes de Daudet* by Alphonse Daudet (1869), B1–B2: 4 stories (Monsieur Seguin's Goat, Master Cornille's Secret, The Stars, The Last Lesson).
+- *Contes de Maupassant* by Guy de Maupassant (1884), B2: 3 stories (The Necklace, In the Country, My Uncle Jules).
 
 Every comic episode and every tale has an estimated CEFR level (A1–C2). Pick your
 own level on the start page and Bulles marks what is at your level, easy, a stretch

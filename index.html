@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bulles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;600;800&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/bulles.css">
+</head>
+<body>
+<header class="bar">
+  <a class="logo" href="#library" aria-label="Bulles library"><i></i>Bulles</a>
+  <button class="pair" id="pair" hidden></button>
+  <div class="grow"></div>
+  <button class="ghost" id="wordsBtn" aria-label="My phrases" hidden><span class="lbl">My phrases</span><span id="wc">0</span></button>
+  <button class="icon ghost" id="theme" aria-label="Switch to dark mode">
+    <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+  </button>
+</header>
+
+<!-- Choose languages -->
+<main id="setup" class="view" hidden>
+  <section class="hero band">
+    <div class="hero-copy">
+      <h1>Read comics in the language you're learning</h1>
+      <p>Tap any bubble you don't understand and it flips into a language you already know, right on the page.</p>
+    </div>
+    <svg class="hero-art" viewBox="0 0 460 300" role="img" aria-label="A speech bubble in the language you are learning above a dashed bubble in the language you know">
+      <path d="M34 22h292a28 28 0 0 1 28 28v76a28 28 0 0 1-28 28H132l-46 40 9-40H34a28 28 0 0 1-28-28V50A28 28 0 0 1 34 22z" fill="var(--bub)" stroke="var(--line)" stroke-width="4"/>
+      <text id="heroL" x="180" y="102" text-anchor="middle" font-family="Shantell Sans, cursive" font-weight="800" font-size="40" fill="var(--ink)">Bonjour !</text>
+      <path d="M146 180h272a26 26 0 0 1 26 26v50a26 26 0 0 1-26 26H146a26 26 0 0 1-26-26v-50a26 26 0 0 1 26-26z" fill="var(--bg)" stroke="var(--blue)" stroke-width="3" stroke-dasharray="10 8"/>
+      <text id="heroK" x="282" y="240" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" fill="var(--blue)">Hello!</text>
+      <circle cx="420" cy="40" r="17" fill="var(--red)"/>
+    </svg>
+  </section>
+  <section class="band pick">
+    <fieldset>
+      <legend>I'm learning</legend>
+      <div class="chips" id="learnChips"></div>
+    </fieldset>
+    <fieldset>
+      <legend>I already speak</legend>
+      <div class="chips" id="knowChips"></div>
+    </fieldset>
+    <button class="go big" id="start">Open my library</button>
+  </section>
+</main>
+
+<!-- Library -->
+<main id="library" class="view" hidden>
+  <section class="band">
+    <h1>Your library</h1>
+    <p class="sub" id="libSub"></p>
+    <div class="grid" id="shelf"></div>
+  </section>
+</main>
+
+<!-- One series: its episodes -->
+<main id="series" class="view" hidden>
+  <section class="band shead">
+    <a class="ghost btnlink" href="#library">‹ Library</a>
+    <h1 id="sName"></h1>
+    <p class="sub" id="sBlurb"></p>
+    <a class="go golink" id="sGo" href="#library">Start</a>
+    <p class="sub note" id="sNote"></p>
+  </section>
+  <section class="band" style="padding-top:0">
+    <ol class="eps" id="eps"></ol>
+  </section>
+  <footer class="band foot">
+    <p>Pepper&amp;Carrot by David Revoy and its volunteer translators, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, <a href="https://www.peppercarrot.com">peppercarrot.com</a>. Each episode's credits are at its end.</p>
+  </footer>
+</main>
+
+<!-- Reader -->
+<main id="reader" class="view" hidden>
+  <div class="rbar">
+    <a class="ghost btnlink" id="rBack" href="#library" aria-label="Back to all episodes">‹ Episodes</a>
+    <h1 id="rTitle"></h1>
+    <label class="switch"><input type="checkbox" id="revealAll"> Show all</label>
+  </div>
+  <p class="hint" id="hint"></p>
+  <div class="pages" id="pages"></div>
+  <section class="credits" id="credits"></section>
+  <div class="phrase" id="phrase" hidden>
+    <div class="ptext">
+      <p class="who" id="pWho"></p>
+      <p class="pl" id="pL"></p>
+      <p class="pk" id="pK"></p>
+    </div>
+    <div class="pact">
+      <button id="pSave">Save</button>
+      <button class="icon ghost" id="pClose" aria-label="Close">×</button>
+    </div>
+  </div>
+</main>
+
+<!-- Saved phrases -->
+<main id="words" class="view" hidden>
+  <section class="band">
+    <h1>My phrases</h1>
+    <p class="sub">Phrases you saved while reading. Copy them into your notes or flashcards.</p>
+    <div class="tools"><button id="copyW">Copy all</button><span id="copied" class="sub"></span></div>
+    <ol class="wlist" id="wlist"></ol>
+  </section>
+</main>
+
+<script>window.BULLES_LIBRARY_LOAD = d => { window.BULLES_LIBRARY = d; };</script>
+<script src="data/library.js"></script>
+<script src="js/bulles.js"></script>
+</body>
+</html>

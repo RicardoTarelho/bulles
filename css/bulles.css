@@ -1,0 +1,149 @@
+/* VOICE: playful but tidy, a reading tool that gets out of the way of the art.
+   IDEA: the comic page with its speech bubbles; a tapped bubble flips into the reader's own language.
+   PICTURE: on setup, a solid bubble in the learned language over a dashed one in the known language; then the comics themselves.
+   COLOUR and TYPE: white paper and black ink, ligne-claire blue, a red dot accent; Shantell Sans for bubbles and titles, Inter for the interface.
+   LAYOUT: slim bar; setup = picture + language chips; library = cover grid; reader = one column of pages. */
+:root{color-scheme:light dark;
+--bg:light-dark(#ffffff,#111418);--ink:light-dark(#121212,#eef1f4);--mute:light-dark(#596068,#a0a9b3);
+--line:light-dark(#121212,#d9dee3);--soft:light-dark(#e4e6e9,#262c33);--well:light-dark(#f2f2f0,#0a0c0f);
+--blue:light-dark(#1f5fbf,#7eadf2);--red:light-dark(#d7261e,#ff6157);--bub:light-dark(#ffffff,#1b2027);
+--shadow:light-dark(rgba(0,0,0,.14),rgba(0,0,0,.5))}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+:root[data-bulles=light]{color-scheme:light}:root[data-bulles=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+a{color:var(--blue)}
+button,input{font:inherit;color:inherit}
+button{min-height:44px;border:2px solid var(--line);background:var(--bub);border-radius:12px;padding:0 16px;cursor:pointer;font-weight:600}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.ghost{border-color:transparent;background:none}
+.ghost:hover{background:var(--soft)}
+.icon{width:44px;padding:0;display:inline-grid;place-items:center}
+.icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.icon .moon{fill:currentColor;stroke:none}
+.icon .sun{display:none}
+:root.dark .icon .sun{display:block}:root.dark .icon .moon{display:none}
+.go{background:var(--blue);border-color:var(--blue);color:light-dark(#fff,#0b1424)}
+.go:disabled{opacity:.45;cursor:not-allowed}
+.big{min-height:52px;font-size:17px;padding:0 26px}
+
+.bar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:6px;padding:8px max(3vw,12px);background:var(--bg);border-bottom:2px solid var(--line)}
+.logo{font:800 26px/1 "Shantell Sans",cursive;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px;margin-right:8px;min-height:44px}
+.logo i{width:14px;height:14px;border-radius:50%;background:var(--red)}
+.pair{font-weight:600;border-radius:999px;font-size:15px;white-space:nowrap}
+.grow{flex:1}
+#wc.zero{background:var(--soft);color:var(--mute)}
+#wc{display:inline-grid;place-items:center;min-width:24px;height:24px;border-radius:12px;background:var(--red);color:#fff;font-size:13px;margin-left:4px;padding:0 6px}
+
+.band{padding:clamp(24px,4vw,56px) max(5vw,16px);max-width:1240px;margin:0 auto}
+h1{font:800 clamp(30px,4.6vw,48px)/1.08 "Shantell Sans",cursive;margin:0 0 10px;text-wrap:balance}
+.sub{color:var(--mute);margin:0 0 22px}
+
+/* setup */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:32px;align-items:center}
+.hero-copy p{font-size:18px;color:var(--mute);max-width:34ch;margin:0}
+.hero-art{width:100%;height:auto}
+.pick{display:grid;gap:22px;padding-top:0}
+fieldset{border:0;margin:0;padding:0}
+legend{font:800 22px/1.2 "Shantell Sans",cursive;margin-bottom:10px;padding:0}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border-radius:999px;font-weight:600}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:disabled{opacity:.35;cursor:not-allowed}
+.pick .go{justify-self:start}
+
+/* library */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:26px}
+.card{display:block;text-decoration:none;color:inherit;border:2px solid var(--line);border-radius:18px;overflow:hidden;background:var(--bub);box-shadow:0 4px 0 var(--line);transition:transform .15s}
+.card:hover{transform:translateY(-3px)}
+.cover{position:relative;aspect-ratio:1100/765;background:var(--well)}
+.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cbody{padding:14px 18px 18px}
+.cbody h2{font:800 22px/1.2 "Shantell Sans",cursive;margin:0}
+.cbody .k{color:var(--mute);margin:2px 0 10px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;color:var(--mute)}
+.prog{height:6px;border-radius:3px;background:var(--soft);margin-top:12px;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--red)}
+.foot{color:var(--mute);font-size:14px;border-top:2px solid var(--soft)}
+
+/* series card on the shelf */
+.scard{max-width:560px}
+.stack3{position:relative;aspect-ratio:16/10;background:var(--well);overflow:hidden}
+.stack3 .sc{position:absolute;width:62%;aspect-ratio:1100/765;border:3px solid var(--bub);box-shadow:0 6px 18px var(--shadow);background:var(--soft);overflow:hidden;border-radius:6px}
+.stack3 .sc:nth-child(1){left:4%;top:24%;transform:rotate(-5deg)}
+.stack3 .sc:nth-child(2){left:34%;top:10%;transform:rotate(4deg)}
+.stack3 .sc:nth-child(3){left:19%;top:36%;z-index:2}
+.stack3 img,.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb img{position:absolute;inset:0}
+
+/* series page */
+.shead{display:grid;gap:4px;justify-items:start;padding-bottom:20px}
+.shead .btnlink{margin-left:-12px}
+.golink{display:inline-flex;align-items:center;min-height:50px;padding:0 24px;border-radius:12px;text-decoration:none;font-weight:600;font-size:17px;margin-top:6px;border:2px solid var(--blue)}
+.note{font-size:14px;margin:10px 0 0}
+.eps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:22px}
+.ep{display:block;text-decoration:none;color:inherit;border-radius:16px;border:2px solid var(--soft);overflow:hidden;background:var(--bub);height:100%}
+.ep:hover{border-color:var(--line)}
+.thumb{position:relative;aspect-ratio:1100/765;background:var(--soft)}
+.num{position:absolute;left:10px;top:10px;min-width:38px;height:38px;padding:0 8px;border-radius:19px;display:grid;place-items:center;background:var(--bub);color:var(--ink);border:2px solid var(--line);font:800 18px/1 "Shantell Sans",cursive}
+.done{position:absolute;right:10px;top:10px;padding:4px 10px;border-radius:12px;background:var(--red);color:#fff;font-size:13px;font-weight:600}
+.einfo{padding:12px 16px 16px}
+.einfo h3{font:800 18px/1.25 "Shantell Sans",cursive;margin:0}
+.einfo .k{font-size:14px;margin:2px 0 8px}
+.einfo .meta{margin:0}
+.swap{display:inline-block;margin:0 0 8px;padding:2px 8px;border-radius:10px;background:var(--soft);font-size:12px;font-weight:600;color:var(--mute)}
+.loading{text-align:center;color:var(--mute);padding:60px 16px}
+.spin{display:inline-block;width:18px;height:18px;border:3px solid currentColor;border-right-color:transparent;border-radius:50%;animation:r .8s linear infinite;vertical-align:-4px;margin-right:8px}
+@keyframes r{to{transform:rotate(1turn)}}
+
+/* reader */
+.rbar{position:sticky;top:62px;z-index:15;display:flex;align-items:center;gap:10px;padding:6px max(3vw,12px);background:var(--bg);border-bottom:1px solid var(--soft)}
+.rbar h1{font-size:clamp(17px,2.4vw,22px);margin:0;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.btnlink{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border-radius:12px;text-decoration:none;color:var(--ink);font-weight:600;white-space:nowrap}
+.switch{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-weight:600;cursor:pointer;white-space:nowrap}
+.switch input{width:20px;height:20px;accent-color:var(--blue)}
+.hint{max-width:900px;margin:14px auto 0;padding:0 16px;color:var(--mute);text-align:center}
+.pages{display:grid;gap:18px;max-width:900px;margin:16px auto 0;padding:0 max(2vw,8px)}
+.page{position:relative;background:#fff;box-shadow:0 2px 0 var(--line),0 12px 28px var(--shadow);cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.page img,.page canvas{position:absolute;inset:0;width:100%;height:100%;display:block;user-select:none;-webkit-user-drag:none}
+.credits{max-width:900px;margin:28px auto 140px;padding:22px max(3vw,16px);border:2px solid var(--line);border-radius:18px}
+.credits h2{font:800 24px/1.2 "Shantell Sans",cursive;margin:0 0 10px}
+.credits dl{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 16px;margin:0 0 16px}
+.credits dt{color:var(--mute)}.credits dd{margin:0}
+.credits .next{display:flex;flex-wrap:wrap;gap:10px}
+.credits .next a{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:12px;border:2px solid var(--line);font-weight:600;text-decoration:none;color:var(--ink)}
+.credits .next a.go{color:light-dark(#fff,#0b1424)}
+
+.phrase{position:fixed;left:50%;bottom:max(14px,env(safe-area-inset-bottom));transform:translateX(-50%);z-index:30;width:min(640px,calc(100% - 20px));display:flex;gap:10px;align-items:center;background:var(--bub);border:2px solid var(--line);border-radius:18px;padding:12px 12px 12px 18px;box-shadow:0 6px 0 var(--line),0 16px 40px var(--shadow)}
+.ptext{flex:1}
+.ptext p{margin:0}
+.who{font-size:13px;font-weight:600;color:var(--blue)}
+.pl{font:600 17px/1.35 "Shantell Sans",cursive}
+.pk{color:var(--mute)}
+.pact{display:flex;gap:4px;align-items:center}
+.pact button:disabled{opacity:.5}
+
+/* saved phrases */
+.tools{display:flex;gap:12px;align-items:center;margin-bottom:16px}
+.wlist{list-style:none;margin:0;padding:0;display:grid;gap:12px;max-width:760px}
+.wlist li{display:flex;gap:12px;align-items:center;border:2px solid var(--soft);border-radius:16px;padding:12px 12px 12px 18px}
+.wt{flex:1;display:grid;gap:2px}.wt p{margin:0}.wt small{color:var(--mute);font-size:13px;margin-top:4px}
+.empty{color:var(--mute)}
+
+@media (max-width:700px){
+ .eps{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .einfo{padding:10px 12px 12px}
+ .einfo h3{font-size:15px}
+ .einfo .k{font-size:13px}
+ .einfo .meta{font-size:12px;gap:2px 8px}
+ .num{min-width:30px;height:30px;font-size:15px;left:6px;top:6px}
+ .hero{grid-template-columns:minmax(0,1fr);gap:12px}
+ .hero-art{order:2;max-width:420px}
+ .pair{font-size:13px;padding:0 10px}
+ #wordsBtn .lbl{display:none}
+ .bar{gap:2px}
+ .logo{font-size:22px;margin-right:2px}
+ .rbar{top:58px}
+}
+@media (prefers-reduced-motion:reduce){.card{transition:none}.spin{animation:none}}

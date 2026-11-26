@@ -22,7 +22,7 @@
 15	Et voilà Sophie qui sort malgré la pluie, qui met sa tête sous la gouttière, et qui reçoit, à sa grande joie, toute l’eau sur la tête, sur le cou, sur les bras, sur le dos.
 16	Lorsqu’elle fut bien mouillée, elle rentra au salon et se mit à essuyer sa tête avec son mouchoir, en ayant soin de rebrousser ses cheveux pour les faire friser.
 17	Son mouchoir fut trempé en une minute ; Sophie voulut courir dans sa chambre pour en demander un autre à sa bonne, lorsqu’elle se trouva nez à nez avec sa maman.
-18	Sophie, toute mouillée, les cheveux hérissés, l’air Et voilà Sophie qui se met la tête sous la gouttière. effaré, resta immobile et tremblante.
+18	Sophie, toute mouillée, les cheveux hérissés, l’air effaré, resta immobile et tremblante.
 19	La maman, étonnée d’abord, lui trouva une figure si ridicule qu’elle éclata de rire.
 ¶
 20	« Voilà une belle idée que vous avez eue, mademoiselle ! lui dit-elle.
@@ -34,34 +34,31 @@
 25	Au moment où Mme de Réan finissait de parler, Paul entra avec M. de Réan ; tous deux s’arrêtèrent stupéfaits devant la pauvre Sophie, rouge, honteuse, désolée et ridicule ; et tous deux éclatèrent de rire.
 26	Plus Sophie rougissait et baissait la tête, plus elle prenait un air embarrassé et malheureux, et plus ses cheveux ébouriffés et ses vêtements mouillés lui donnaient un air risible.
 27	Enfin M. de Réan demanda ce que signifiait cette mascarade et si Sophie allait dîner en mardi gras de carnaval.
-¶ [madame de réan]
+¶
 28	C’est sans doute une invention pour faire friser ses cheveux ; elle veut absolument qu’ils frisent comme ceux de Camille, qui mouille les siens pour les faire friser ; Sophie a pensé qu’il en serait de même pour elle.
-¶ [m. de réan]
+¶
 29	Ce que c’est que d’être coquette !
 30	On veut se rendre jolie et l’on se rend affreuse.
-¶ [paul]
+¶
 31	Ma pauvre Sophie, va vite te sécher, te peigner et te changer.
 32	Si tu savais comme tu es drôle, tu ne voudrais pas rester deux minutes comme tu es.
-¶ [madame de réan]
+¶
 33	Non, elle va dîner avec sa belle coiffure en l’air et avec sa robe pleine de sable et d’eau…
-¶ [paul, interrompant et avec compassion]
+¶
 34	Oh ! ma tante, je vous en prie, pardonnez-lui, et permettez-lui d’aller se peigner et changer de robe.
 35	Pauvre Sophie, elle a l’air si malheureux !
-¶ [m. de réan]
+¶
 36	Je fais comme Paul, chère amie, et je demande grâce pour cette fois.
 37	Si elle recommence, ce sera différent.
-¶ [sophie, pleurant]
+¶
 38	Je vous assure, papa, que je ne recommencerai pas.
-¶ [madame de réan]
+¶
 39	Pour faire plaisir à votre papa, mademoiselle, je vous permets d’aller dans votre chambre et de vous déshabiller ; mais vous ne dînerez pas avec nous ; vous ne viendrez au salon que lorsque nous serons sortis de table.
 ¶
-40	paul.
-41	Oh ! ma tante, permettez-lui…
+40	Oh ! ma tante, permettez-lui…
 ¶
-42	Ses cheveux ébouriffés et ses vêtements mouillés lui donnait un air risible.(Page 57) madame de réan.
+41	Non, Paul, ne me demande plus rien ; ce sera comme je l’ai dit. (À Sophie.) Allez, mademoiselle.
 ¶
-43	Non, Paul, ne me demande plus rien ; ce sera comme je l’ai dit. (À Sophie.) Allez, mademoiselle.
-¶
-44	Sophie dîna dans sa chambre, après avoir été peignée et habillée.
-45	Paul vint la chercher après dîner et l’emmena jouer dans un salon où étaient les joujoux.
-46	Depuis ce jour Sophie n’essaya plus de se mettre à la pluie pour faire friser ses cheveux.
+42	Sophie dîna dans sa chambre, après avoir été peignée et habillée.
+43	Paul vint la chercher après dîner et l’emmena jouer dans un salon où étaient les joujoux.
+44	Depuis ce jour Sophie n’essaya plus de se mettre à la pluie pour faire friser ses cheveux.

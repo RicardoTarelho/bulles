@@ -10,19 +10,19 @@
 4	Paul prit garde pendant quelques minutes, puis il oublia et recommença à faire trembler la table.
 ¶
 5	« Tu es insupportable, Paul ! s’écria Sophie ; je t’ai déjà dit que tu m’empêchais de peindre.
-¶ [paul]
+¶
 6	Ah bah ! pour les belles choses que tu fais, ce n’est pas la peine de se gêner.
-¶ [sophie]
+¶
 7	Je sais très bien que tu ne te gênes jamais ; mais, comme tu me gênes, je te prie de laisser tes jambes tranquilles.
-¶ [paul, d’un air moqueur]
+¶
 8	Mes jambes n’aiment pas à rester tranquilles, elles bougent malgré moi.
-¶ [sophie, fâchée]
+¶
 9	Je les attacherai avec une ficelle, tes ennuyeuses jambes ; et, si tu continues à les remuer, je te chasserai.
-¶ [paul]
+¶
 10	Essaie donc un peu ; tu verras ce que savent faire les pieds qui sont au bout de mes jambes.
-¶ [sophie]
+¶
 11	Vas-tu me donner des coups de pied, méchant ?
-¶ [paul]
+¶
 12	Certainement, si tu me donnes des coups de poing. »
 ¶
 13	Sophie, tout à fait en colère, lance de l’eau à la figure de Paul, qui, se fâchant à son tour, donne un coup de pied à la table et renverse tout ce qui était dessus.
@@ -98,56 +98,53 @@
 63	« Où t’es-tu arrangé comme cela ? demanda Mme d’Aubert.
 64	Mon pauvre Paul, on dirait que tu t’es roulé dans les épines.
 ¶
-65	paul.
-66	C’est précisément ce qui m’est arrivé, maman.
-67	Je suis tombé, en courant, dans un buisson de houx, et, en me débattant pour me relever, je me suis écorché le visage et les mains.
-¶ [madame d’aubert]
-68	Tu es bien maladroit d’être tombé dans ce houx, tu n’aurais pas dû te débattre, mais te relever bien doucement.
-¶ [madame de réan]
-69	Où donc étais-tu, Sophie ?
-70	Tu aurais dû l’aider à se relever.
-¶ [paul]
-71	Elle courait après moi, ma tante ; elle n’a pas eu le temps de m’aider ; quand elle est arrivée, je m’étais déjà relevé. »
+65	C’est précisément ce qui m’est arrivé, maman.
+66	Je suis tombé, en courant, dans un buisson de houx, et, en me débattant pour me relever, je me suis écorché le visage et les mains.
 ¶
-72	Mme d’Aubert emmena Paul pour mettre sur ses écorchures de la pommade de concombre.
+67	Tu es bien maladroit d’être tombé dans ce houx, tu n’aurais pas dû te débattre, mais te relever bien doucement.
 ¶
-73	Sophie resta avec sa maman, qui l’examinait avec attention.
-¶ [madame de réan]
-74	Pourquoi es-tu triste, Sophie ?
-¶ [sophie, rougissant]
-75	Je ne suis pas triste, maman.
-¶ [madame de réan]
-76	Si fait, tu es triste et inquiète comme si quelque chose te tourmentait.
+68	Où donc étais-tu, Sophie ?
+69	Tu aurais dû l’aider à se relever.
 ¶
-77	sophie, les larmes aux yeux et la voix tremblante.
+70	Elle courait après moi, ma tante ; elle n’a pas eu le temps de m’aider ; quand elle est arrivée, je m’étais déjà relevé. »
 ¶
-78	Je n’ai rien, maman ; je n’ai rien.
-¶ [madame de réan]
-79	Tu vois bien que, même en me disant que tu n’as rien, tu es prête à pleurer.
-¶ [sophie, éclatant en sanglots]
-80	Je ne peux… pas… vous dire…
-81	J’ai… promis… à Paul.
-¶ [madame de réan, attirant Sophie]
-82	Écoute, Sophie, si Paul a fait quelque chose de mal, tu ne dois pas tenir ta promesse de ne pas me le dire.
-83	Je te promets, moi, que je ne gronderai pas Paul, et que je ne le dirai pas à sa maman ;
-84	mais je veux savoir ce qui te rend si triste, ce qui te fait pleurer si fort, et tu dois me le dire.
+71	Mme d’Aubert emmena Paul pour mettre sur ses écorchures de la pommade de concombre.
 ¶
-85	Sophie cache sa figure dans les genoux de Mme de Réan, et sanglote si fort qu’elle ne peut pas parler.
+72	Sophie resta avec sa maman, qui l’examinait avec attention.
 ¶
-86	Mme de Réan cherche à la rassurer, à l’encourager, et enfin Sophie lui dit :
+73	Pourquoi es-tu triste, Sophie ?
 ¶
-87	« Paul n’a rien fait de mal, maman ; au contraire, il est très bon, et il a fait une très belle chose ;
-88	c’est moi seule qui ai été méchante, et c’est pour m’empêcher d’être grondée et punie qu’il s’est roulé dans le houx. »
+74	Je ne suis pas triste, maman.
 ¶
-89	Mme de Réan, de plus en plus surprise, questionna Sophie, qui lui raconta tout ce qui s’était passé entre elle et Paul.
+75	Si fait, tu es triste et inquiète comme si quelque chose te tourmentait.
 ¶
-90	« Excellent petit Paul ! s’écria Mme de Réan ; quel bon cœur il a !
-91	Quel courage et quelle bonté !
-92	Et toi, ma pauvre Sophie, quelle différence entre toi et ton cousin !
-93	Vois comme tu te laisses aller à tes colères et comme tu es ingrate envers cet excellent Paul, qui te pardonne toujours, qui oublie toujours tes injustices, et qui, aujourd’hui encore, a été si généreux pour toi.
-¶ [sophie]
-94	Oh oui ! maman, je vois bien tout cela, et à l’avenir jamais je ne me fâcherai contre Paul.
-¶ [madame de réan]
-95	Je n’ajouterai aucune réprimande ni aucune punition à celle que te fait subir ton cœur.
-96	Tu souffres du mal de Paul, et c’est ta punition : elle te profitera plus que toutes celles que je pourrais t’infliger.
-97	D’ailleurs tu as été sincère, tu as tout avoué quand tu pouvais tout cacher : c’est très bien, je te pardonne à cause de ta franchise. »
+76	Je n’ai rien, maman ; je n’ai rien.
+¶
+77	Tu vois bien que, même en me disant que tu n’as rien, tu es prête à pleurer.
+¶
+78	Je ne peux… pas… vous dire…
+79	J’ai… promis… à Paul.
+¶
+80	Écoute, Sophie, si Paul a fait quelque chose de mal, tu ne dois pas tenir ta promesse de ne pas me le dire.
+81	Je te promets, moi, que je ne gronderai pas Paul, et que je ne le dirai pas à sa maman ;
+82	mais je veux savoir ce qui te rend si triste, ce qui te fait pleurer si fort, et tu dois me le dire.
+¶
+83	Sophie cache sa figure dans les genoux de Mme de Réan, et sanglote si fort qu’elle ne peut pas parler.
+¶
+84	Mme de Réan cherche à la rassurer, à l’encourager, et enfin Sophie lui dit :
+¶
+85	« Paul n’a rien fait de mal, maman ; au contraire, il est très bon, et il a fait une très belle chose ;
+86	c’est moi seule qui ai été méchante, et c’est pour m’empêcher d’être grondée et punie qu’il s’est roulé dans le houx. »
+¶
+87	Mme de Réan, de plus en plus surprise, questionna Sophie, qui lui raconta tout ce qui s’était passé entre elle et Paul.
+¶
+88	« Excellent petit Paul ! s’écria Mme de Réan ; quel bon cœur il a !
+89	Quel courage et quelle bonté !
+90	Et toi, ma pauvre Sophie, quelle différence entre toi et ton cousin !
+91	Vois comme tu te laisses aller à tes colères et comme tu es ingrate envers cet excellent Paul, qui te pardonne toujours, qui oublie toujours tes injustices, et qui, aujourd’hui encore, a été si généreux pour toi.
+¶
+92	Oh oui ! maman, je vois bien tout cela, et à l’avenir jamais je ne me fâcherai contre Paul.
+¶
+93	Je n’ajouterai aucune réprimande ni aucune punition à celle que te fait subir ton cœur.
+94	Tu souffres du mal de Paul, et c’est ta punition : elle te profitera plus que toutes celles que je pourrais t’infliger.
+95	D’ailleurs tu as été sincère, tu as tout avoué quand tu pouvais tout cacher : c’est très bien, je te pardonne à cause de ta franchise. »

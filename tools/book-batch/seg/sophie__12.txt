@@ -5,14 +5,14 @@
 2	Sophie s’était levée plus tôt que d’habitude ; elle se dépêchait de s’habiller pour aller chez sa maman recevoir son cadeau.
 ¶
 3	« Vite, vite, ma bonne, je vous en prie, disait-elle ; j’ai si envie de savoir ce que maman me donnera pour ma fête !
-¶ [la bonne]
+¶
 4	Mais donnez-moi le temps de vous peigner.
 5	Vous ne pouvez pas vous en aller tout ébouriffée comme vous êtes.
 6	Ce serait une jolie manière de commencer vos quatre ans !…
 7	Tenez-vous donc tranquille, vous bougez toujours.
-¶ [sophie]
+¶
 8	Aïe, aïe, vous m’arrachez les cheveux, ma bonne.
-¶ [la bonne]
+¶
 9	Parce que vous tournez la tête de tous les côtés ; là,… encore ! comment puis-je deviner de quel côté il vous plaira de tourner la tête ? »
 ¶
 10	Enfin Sophie fut habillée, peignée, et elle put courir chez sa maman.
@@ -30,9 +30,9 @@
 ¶
 18	« Tu ne parais pas contente de mon présent, lui dit-elle ; c’est pourtant très joli ; il y a écrit dessus : les Arts.
 19	Je suis sûre qu’il t’amusera plus que tu ne le penses.
-¶ [sophie]
+¶
 20	Je ne sais pas, maman.
-¶ [la maman]
+¶
 21	Ouvre-le, tu verras. »
 ¶
 22	Sophie voulut ouvrir le livre ; à sa grande surprise elle ne le put pas ; ce qui l’étonna plus encore, c’est qu’en le retournant il se faisait dans le livre un bruit étrange.
@@ -48,7 +48,7 @@
 28	« Oh ! merci, ma chère maman, s’écria Sophie.
 29	Que je suis contente !
 30	Comme c’est joli !
-¶ [la maman]
+¶
 31	Tu étais un peu attrapée tout à l’heure, quand tu as cru que je te donnais un vrai livre ; mais je ne t’aurais pas joué un si mauvais tour.
 32	Tu pourras t’amuser à peindre dans la journée avec ton cousin Paul et tes amies Camille et Madeleine, que j’ai engagées à venir passer la journée avec toi : elles viendront à deux heures.
 33	Ta tante d’Aubert m’a chargée de te donner de sa part ce petit thé ; elle ne pourra venir qu’à trois heures, et elle a voulu te faire son cadeau dès le matin. »
@@ -67,12 +67,12 @@
 42	Je vais demander à ma bonne. »
 ¶
 43	Sophie dit à sa maman qu’elle allait montrer tout cela à sa bonne ; elle emporta sa boîte et son thé et courut dans sa chambre.
-¶ [sophie]
+¶
 44	Tenez, ma bonne, voyez les jolies choses que m’ont données maman et ma tante d’Aubert.
-¶ [la bonne]
+¶
 45	Le joli ménage ! vous vous amuserez bien avec.
 46	Mais je n’aime pas beaucoup ce livre ; à quoi vous servira un livre, puisque vous ne savez pas lire ?
-¶ [sophie, riant]
+¶
 47	Bravo ! voilà ma bonne attrapée comme moi.
 48	Ce n’est pas un livre, c’est une boîte à couleurs.
 ¶
@@ -118,108 +118,105 @@
 78	« À présent, s’écria Paul, prenons le thé. »
 ¶
 79	— Oui, oui, prenons le thé, répondirent toutes les petites filles ensemble.
-¶ [camille]
+¶
 80	Voyons, Sophie, fais les honneurs.
-¶ [sophie]
+¶
 81	Asseyez-vous tous autour de la table…
 82	Là, c’est bien…
 83	Donnez-moi vos tasses, que j’y mette du sucre…
 84	À présent le thé,… puis la crème…
 85	Buvez maintenant.
-¶ [madeleine]
+¶
 86	C’est singulier, le sucre ne fond pas.
-¶ [sophie]
+¶
 87	Mêle bien, il fondra.
-¶ [paul]
+¶
 88	Mais ton thé est froid.
-¶ [sophie]
+¶
 89	C’est parce qu’il est fait depuis longtemps.
 ¶
-90	camille goûte le thé et le rejette avec dégoût.
+90	Ah ! quelle horreur ! qu’est-ce que c’est ? ce n’est pas du thé, cela !
 ¶
-91	Ah ! quelle horreur ! qu’est-ce que c’est ? ce n’est pas du thé, cela !
-¶ [madeleine, le rejetant de même]
-92	C’est détestable ! cela sent la craie.
-¶ [paul, crachant à son tour]
-93	Que nous as-tu donné là, Sophie ?
-94	C’est détestable, dégoûtant.
-¶ [sophie, embarrassée]
-95	Vous trouvez…
+91	C’est détestable ! cela sent la craie.
 ¶
-96	paul.
-97	Comment, si nous trouvons ?
-98	Mais c’est affreux de nous jouer un tour pareil !
-99	Tu mériterais que nous te fissions avaler ton détestable thé.
-¶ [sophie, se fâchant]
-100	Vous êtes tous si difficiles que rien ne vous semble bon !
-¶ [camille, souriant]
-101	Avoue, Sophie, que, sans être difficile, on peut trouver ton thé très mauvais.
-¶ [madeleine]
-102	Quant à moi, je n’ai jamais goûté à quelque chose d’aussi mauvais.
-¶ [paul, présentant la théière à Sophie]
-103	Avale donc, avale : tu verras si nous sommes difficiles.
-¶ [sophie, se débattant]
-104	Laisse-moi, tu m’ennuies.
-¶ [paul, continuant]
-105	Ah ! nous sommes difficiles !
-106	Ah ! tu trouves ton thé bon !
-107	Bois-le donc ainsi que ta crème. »
+92	Que nous as-tu donné là, Sophie ?
+93	C’est détestable, dégoûtant.
 ¶
-108	Et Paul, saisissant Sophie, lui versa le thé dans la bouche ;
-109	il allait en faire autant de la prétendue crème, malgré les cris et la colère de Sophie, lorsque Camille et Madeleine, qui étaient très bonnes et qui avaient pitié d’elle, se précipitèrent sur Paul pour lui arracher le pot à la crème.
-110	Paul, qui était furieux, les repoussa ; Sophie en profita pour se dégager et pour tomber dessus à coups de poing.
-111	Camille et Madeleine tâchèrent alors de retenir Sophie ; Paul hurlait, Sophie criait, Camille et Madeleine appelaient au secours, c’était un train à assourdir ; les mamans accoururent effrayées.
-112	À leur aspect les enfants se tinrent tous immobiles.
+94	Vous trouvez…
 ¶
-113	« Que se passe-t-il donc ? » demanda Mme de Réan d’un air inquiet et sévère.
+95	Comment, si nous trouvons ?
+96	Mais c’est affreux de nous jouer un tour pareil !
+97	Tu mériterais que nous te fissions avaler ton détestable thé.
 ¶
-114	Personne ne répondit.
-¶ [madame de fleurville]
-115	Camille, explique-nous le sujet de cette bataille.
-¶ [camille]
-116	Maman, Madeleine et moi nous ne nous battions avec personne.
-¶ [madame de fleurville]
-117	Comment ! vous ne vous battiez pas ?
-118	Toi tu tenais le bras de Sophie, et Madeleine tenait Paul par la jambe.
-¶ [camille]
-119	C’était pour les empêcher de… de… jouer trop fort.
-¶ [madame de fleurville, avec un demi-sourire]
-120	Jouer ! tu appelles cela jouer !
-¶ [madame de réan]
-121	Je vois que c’est Sophie et Paul qui se seront disputés comme à l’ordinaire ; Camille et Madeleine auront voulu les empêcher de se battre.
-122	J’ai deviné, n’est-ce pas, ma petite Camille ?
-¶ [camille, bien bas et rougissant]
-123	Oui, madame.
-¶ [madame d’aubert]
-124	N’êtes-vous pas honteux, monsieur Paul, de vous conduire ainsi ?
-125	À propos de rien vous vous fâchez, vous êtes prêt à vous battre…
-¶ [paul]
-126	Ce n’est pas à propos de rien, maman ; Sophie a voulu nous faire boire un thé tellement détestable que nous avons eu mal au cœur en le goûtant, et, quand nous nous sommes plaints, elle nous a dit que nous étions trop difficiles. »
+98	Vous êtes tous si difficiles que rien ne vous semble bon !
 ¶
-127	Mme de Réan prit le pot à la crème, le sentit, y goûta du bout de la langue, fit une grimace de dégoût et dit à Sophie :
+99	Avoue, Sophie, que, sans être difficile, on peut trouver ton thé très mauvais.
 ¶
-128	« Où avez-vous pris cette horreur de prétendue crème, mademoiselle ?
-¶ [sophie, la tête baissée et très honteuse]
-129	Je l’ai faite, maman.
-¶ [madame de réan]
-130	Vous l’avez faite ! et avec quoi ?…
-131	Répondez.
-¶ [sophie, de même]
-132	Avec le blanc à argenterie et l’eau du chien.
-¶ [madame de réan]
-133	Et votre thé, qu’est-ce que c’était ?
-¶ [sophie, de même]
-134	Des feuilles de trèfle et de l’eau du chien.
-¶ [madame de réan, examinant le sucrier]
-135	Voilà un joli régal pour vos amies !
-136	De l’eau sale, de la craie !
-137	Vous commencez bien vos quatre ans, mademoiselle : en désobéissant quand je vous avais défendu de faire du thé, en voulant faire avaler à vos amies un soi-disant thé dégoûtant, et en vous battant avec votre cousin.
-138	Je reprends votre ménage, pour vous empêcher de recommencer, et je vous aurais envoyée dîner dans votre chambre, si je ne craignais de gâter le plaisir de vos petites amies, qui sont si bonnes qu’elles souffriraient de votre punition. »
+100	Quant à moi, je n’ai jamais goûté à quelque chose d’aussi mauvais.
 ¶
-139	Les mamans s’en allèrent en riant malgré elles du ridicule régal inventé par Sophie.
-140	Les enfants restèrent seuls ; Paul et Sophie, honteux de leur bataille, n’osaient pas se regarder.
-141	Camille et Madeleine les embrassèrent, les consolèrent et tâchèrent de les réconcilier.
-142	Sophie embrassa Paul, leur demanda pardon à tous, et tout fut oublié.
-143	On courut au jardin, où on attrapa huit superbes papillons, que Paul mit dans une boîte qui avait un couvercle de verre.
-144	Le reste de l’après-midi se passa à arranger la boîte, pour que les papillons fussent bien logés ; on leur mit de l’herbe, des fleurs, des gouttes d’eau sucrée, des fraises, des cerises.
-145	Quand le soir vint, et que chacun put partir, Paul emporta la boîte aux papillons, à la prière de Sophie, de Camille et de Madeleine, qui voyaient qu’il en avait envie.
+101	Avale donc, avale : tu verras si nous sommes difficiles.
+¶
+102	Laisse-moi, tu m’ennuies.
+¶
+103	Ah ! nous sommes difficiles !
+104	Ah ! tu trouves ton thé bon !
+105	Bois-le donc ainsi que ta crème. »
+¶
+106	Et Paul, saisissant Sophie, lui versa le thé dans la bouche ;
+107	il allait en faire autant de la prétendue crème, malgré les cris et la colère de Sophie, lorsque Camille et Madeleine, qui étaient très bonnes et qui avaient pitié d’elle, se précipitèrent sur Paul pour lui arracher le pot à la crème.
+108	Paul, qui était furieux, les repoussa ; Sophie en profita pour se dégager et pour tomber dessus à coups de poing.
+109	Camille et Madeleine tâchèrent alors de retenir Sophie ; Paul hurlait, Sophie criait, Camille et Madeleine appelaient au secours, c’était un train à assourdir ; les mamans accoururent effrayées.
+110	À leur aspect les enfants se tinrent tous immobiles.
+¶
+111	« Que se passe-t-il donc ? » demanda Mme de Réan d’un air inquiet et sévère.
+¶
+112	Personne ne répondit.
+¶
+113	Camille, explique-nous le sujet de cette bataille.
+¶
+114	Maman, Madeleine et moi nous ne nous battions avec personne.
+¶
+115	Comment ! vous ne vous battiez pas ?
+116	Toi tu tenais le bras de Sophie, et Madeleine tenait Paul par la jambe.
+¶
+117	C’était pour les empêcher de… de… jouer trop fort.
+¶
+118	Jouer ! tu appelles cela jouer !
+¶
+119	Je vois que c’est Sophie et Paul qui se seront disputés comme à l’ordinaire ; Camille et Madeleine auront voulu les empêcher de se battre.
+120	J’ai deviné, n’est-ce pas, ma petite Camille ?
+¶
+121	Oui, madame.
+¶
+122	N’êtes-vous pas honteux, monsieur Paul, de vous conduire ainsi ?
+123	À propos de rien vous vous fâchez, vous êtes prêt à vous battre…
+¶
+124	Ce n’est pas à propos de rien, maman ; Sophie a voulu nous faire boire un thé tellement détestable que nous avons eu mal au cœur en le goûtant, et, quand nous nous sommes plaints, elle nous a dit que nous étions trop difficiles. »
+¶
+125	Mme de Réan prit le pot à la crème, le sentit, y goûta du bout de la langue, fit une grimace de dégoût et dit à Sophie :
+¶
+126	« Où avez-vous pris cette horreur de prétendue crème, mademoiselle ?
+¶
+127	Je l’ai faite, maman.
+¶
+128	Vous l’avez faite ! et avec quoi ?…
+129	Répondez.
+¶
+130	Avec le blanc à argenterie et l’eau du chien.
+¶
+131	Et votre thé, qu’est-ce que c’était ?
+¶
+132	Des feuilles de trèfle et de l’eau du chien.
+¶
+133	Voilà un joli régal pour vos amies !
+134	De l’eau sale, de la craie !
+135	Vous commencez bien vos quatre ans, mademoiselle : en désobéissant quand je vous avais défendu de faire du thé, en voulant faire avaler à vos amies un soi-disant thé dégoûtant, et en vous battant avec votre cousin.
+136	Je reprends votre ménage, pour vous empêcher de recommencer, et je vous aurais envoyée dîner dans votre chambre, si je ne craignais de gâter le plaisir de vos petites amies, qui sont si bonnes qu’elles souffriraient de votre punition. »
+¶
+137	Les mamans s’en allèrent en riant malgré elles du ridicule régal inventé par Sophie.
+138	Les enfants restèrent seuls ; Paul et Sophie, honteux de leur bataille, n’osaient pas se regarder.
+139	Camille et Madeleine les embrassèrent, les consolèrent et tâchèrent de les réconcilier.
+140	Sophie embrassa Paul, leur demanda pardon à tous, et tout fut oublié.
+141	On courut au jardin, où on attrapa huit superbes papillons, que Paul mit dans une boîte qui avait un couvercle de verre.
+142	Le reste de l’après-midi se passa à arranger la boîte, pour que les papillons fussent bien logés ; on leur mit de l’herbe, des fleurs, des gouttes d’eau sucrée, des fraises, des cerises.
+143	Quand le soir vint, et que chacun put partir, Paul emporta la boîte aux papillons, à la prière de Sophie, de Camille et de Madeleine, qui voyaient qu’il en avait envie.

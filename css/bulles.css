@@ -147,3 +147,54 @@ legend{font:800 22px/1.2 "Shantell Sans",cursive;margin-bottom:10px;padding:0}
  .rbar{top:58px}
 }
 @media (prefers-reduced-motion:reduce){.card{transition:none}.spin{animation:none}}
+
+/* levels */
+.small{font-size:14px}
+.levels .chip{min-width:56px}
+.lv{display:inline-flex;align-items:center;height:24px;padding:0 8px;border-radius:7px;border:2px solid var(--line);font-size:12px;font-weight:700;letter-spacing:.02em;color:var(--ink);background:var(--bub);white-space:nowrap}
+.fit{display:inline-flex;align-items:center;height:24px;padding:0 9px;border-radius:12px;font-size:12px;font-weight:600;white-space:nowrap}
+.fit-good{background:var(--blue);color:light-dark(#fff,#0b1424)}
+.fit-easy{background:var(--soft);color:var(--mute)}
+.fit-stretch{background:light-dark(#fde7c8,#4a3517);color:light-dark(#8a4b00,#ffc77a)}
+.fit-hard{background:light-dark(#fbd5d2,#4d1f1c);color:light-dark(#9b1c14,#ff9c94)}
+.meta{align-items:center}
+.lvline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:2px 0 6px}
+.lvline .small{margin:0}
+.levnote{margin-top:28px}
+.shelfh{font:800 22px/1.2 "Shantell Sans",cursive;margin:28px 0 12px}
+.shelfh:first-of-type{margin-top:8px}
+#bookshelf:empty{display:none}
+.cover svg{position:absolute;inset:0;width:100%;height:100%}
+#onlyWrap{margin-top:4px}
+
+/* book contents */
+.chaps{list-style:none;margin:0;padding:0;display:grid;gap:14px;max-width:760px}
+.chap{display:flex;gap:16px;align-items:flex-start;text-decoration:none;color:inherit;border:2px solid var(--soft);border-radius:16px;padding:14px 16px;background:var(--bub)}
+.chap:hover{border-color:var(--line)}
+.chap .einfo{padding:0;flex:1}
+.cn{flex:none;width:40px;height:40px;border-radius:20px;display:grid;place-items:center;border:2px solid var(--line);font:800 18px/1 "Shantell Sans",cursive}
+#bBlurb .lv{margin-top:10px}
+#bBlurb .swap{margin-left:8px}
+
+/* book reader */
+.text{max-width:680px;margin:18px auto 0;padding:0 20px;font:19px/1.75 Literata,Georgia,serif}
+.text .ttl{font:600 30px/1.2 Literata,Georgia,serif;margin:6px 0 22px;text-wrap:balance}
+.text p{margin:0 0 1.1em}
+.text .poem{font-style:italic;margin:1.6em 0 1.6em 1.2em;white-space:pre-line;line-height:1.6;color:var(--ink)}
+.text .poem::before{content:"Moralité";display:block;font:700 13px/1.4 Inter,sans-serif;letter-spacing:.04em;color:var(--mute);margin-bottom:6px;font-style:normal}
+.text .poem + .poem::before{content:none}
+.s{cursor:pointer;border-radius:4px;transition:background .15s;-webkit-tap-highlight-color:transparent;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.s:hover{background:light-dark(#eef3fc,#1d2733)}
+.s:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+.s.on{background:light-dark(#ffe9a8,#5a4a14)}
+.tr{display:none}
+.text.all .s{display:block;margin-top:.5em}
+.text.all .tr{display:block;font:15px/1.5 Inter,sans-serif;color:var(--blue);margin:2px 0 .2em}
+.text.all .poem .s,.text.all .poem .tr{white-space:pre-line}
+.sbub{position:absolute;z-index:40;background:var(--bub);color:var(--ink);border:2px solid var(--line);border-radius:22px;padding:12px 12px 12px 18px;display:flex;gap:8px;align-items:center;box-shadow:0 5px 0 var(--line),0 14px 34px var(--shadow)}
+.sbub::after{content:"";position:absolute;left:calc(var(--tx,40px) - 9px);bottom:-10px;width:16px;height:16px;background:var(--bub);border-right:2px solid var(--line);border-bottom:2px solid var(--line);transform:rotate(45deg)}
+.sbub.below::after{bottom:auto;top:-10px;transform:rotate(225deg)}
+.sbk{margin:0;flex:1;font:600 17px/1.4 "Shantell Sans",cursive;white-space:pre-line}
+.sbact{display:flex;gap:2px;align-items:center}
+.sbact button{min-height:40px}
+@media (max-width:700px){.text{font-size:18px;padding:0 16px}.chap{padding:12px}}

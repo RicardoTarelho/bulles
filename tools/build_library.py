@@ -16,7 +16,7 @@ import numpy as np
 from PIL import Image
 from scipy import ndimage
 
-SRC, APP = sys.argv[1], sys.argv[2]
+SRC, APP = (sys.argv[1:3] + [None, None])[:2] if __name__ == "__main__" else (None, None)
 LANGS = {
     "fr": "Français", "en": "English", "pt": "Português",
     "es": "Español", "de": "Deutsch", "it": "Italiano",

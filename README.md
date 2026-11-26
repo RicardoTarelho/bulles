@@ -12,6 +12,15 @@ Portuguese, Spanish, German and Italian. Any of these can be the language you
 learn or the one you know. Episode 39 has no Portuguese or Italian translation yet, so for those
 its bubbles flip to English instead.
 
+**Contes de Perrault** by Charles Perrault (1697): four tales (Little Red Riding Hood,
+The Fairies, Puss in Boots, Cinderella) in the original French, from the 1886 Montréal
+edition on Wikisource (public domain). Tap any sentence to see it in English or
+Portuguese. Those translations were made with Claude for Bulles.
+
+Every comic episode and every tale has an estimated CEFR level (A1–C2). Pick your
+own level on the start page and Bulles marks what is at your level, easy, a stretch
+or hard. `tools/levels.py` explains how the levels are estimated.
+
 ## What's in this folder
 
 | Folder | What it holds |
@@ -41,4 +50,4 @@ made by the Pepper&Carrot volunteer translators.
 1. Download the episode sources from https://www.peppercarrot.com/0_sources/ into one folder (one folder per episode).
 2. Run `python tools/build_series.py <that folder> .` (needs Python with numpy, scipy and Pillow).
 
-`tools/build_library.py` holds the shared code for reading the bubble layers, SVGs and transcripts.
+`tools/build_book.py` builds the book from its text and translations; `tools/build_library.py` holds the shared code for reading the bubble layers, SVGs and transcripts.

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bulles</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;600;800&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;600;800&family=Literata:opsz,wght@7..72,400;7..72,600&family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="css/bulles.css">
 </head>
 <body>
@@ -44,6 +44,11 @@
       <legend>I already speak</legend>
       <div class="chips" id="knowChips"></div>
     </fieldset>
+    <fieldset>
+      <legend id="levelLegend">My level</legend>
+      <div class="chips levels" id="levelChips"></div>
+      <p class="sub small" id="levelHelp"></p>
+    </fieldset>
     <button class="go big" id="start">Open my library</button>
   </section>
 </main>
@@ -53,7 +58,12 @@
   <section class="band">
     <h1>Your library</h1>
     <p class="sub" id="libSub"></p>
+    <h2 class="shelfh">Comics</h2>
     <div class="grid" id="shelf"></div>
+    <h2 class="shelfh">Books</h2>
+    <div class="grid" id="bookshelf"></div>
+    <p class="sub small" id="bookNote"></p>
+    <p class="sub small levnote">Levels (A1–C2) are estimates based on how much text there is, how long the sentences are and which tenses are used.</p>
   </section>
 </main>
 
@@ -63,7 +73,9 @@
     <a class="ghost btnlink" href="#library">‹ Library</a>
     <h1 id="sName"></h1>
     <p class="sub" id="sBlurb"></p>
+    <p class="lvline" id="sLevel"></p>
     <a class="go golink" id="sGo" href="#library">Start</a>
+    <label class="switch" id="onlyWrap"><input type="checkbox" id="onlyMine"> Hide episodes above my level</label>
     <p class="sub note" id="sNote"></p>
   </section>
   <section class="band" style="padding-top:0">
@@ -72,6 +84,36 @@
   <footer class="band foot">
     <p>Pepper&amp;Carrot by David Revoy and its volunteer translators, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, <a href="https://www.peppercarrot.com">peppercarrot.com</a>. Each episode's credits are at its end.</p>
   </footer>
+</main>
+
+<!-- A book: its chapters -->
+<main id="book" class="view" hidden>
+  <section class="band shead">
+    <a class="ghost btnlink" href="#library">‹ Library</a>
+    <h1 id="bTitle"></h1>
+    <p class="sub" id="bBlurb"></p>
+    <a class="go golink" id="bGo" href="#library">Start reading</a>
+  </section>
+  <section class="band" style="padding-top:0">
+    <ol class="chaps" id="chaps"></ol>
+  </section>
+  <footer class="band foot" id="bFoot"></footer>
+</main>
+
+<!-- Reading a book chapter -->
+<main id="tale" class="view" hidden>
+  <div class="rbar">
+    <a class="ghost btnlink" id="tBack" href="#library">‹ Contents</a>
+    <h1 id="tTitle"></h1>
+    <label class="switch"><input type="checkbox" id="tAll"> Show all</label>
+  </div>
+  <p class="hint" id="tHint"></p>
+  <article class="text" id="text"></article>
+  <section class="credits" id="tEnd"></section>
+  <div class="sbub" id="sbub" hidden role="dialog" aria-live="polite">
+    <p class="sbk" id="sbK"></p>
+    <div class="sbact"><button id="sbSave">Save</button><button class="icon ghost" id="sbClose" aria-label="Close">×</button></div>
+  </div>
 </main>
 
 <!-- Reader -->

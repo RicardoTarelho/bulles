@@ -1,0 +1,134 @@
+# LA POUPÉE DE CIRE
+¶
+0	« Ma bonne, ma bonne, dit un jour Sophie en accourant dans sa chambre, venez vite ouvrir une caisse que papa m’a envoyée de Paris ; je crois que c’est une poupée de cire, car il m’en a promis une.
+¶ [la bonne]
+1	Où est la caisse ?
+¶ [sophie]
+2	Dans l’antichambre : venez vite, ma bonne, je vous en supplie. »
+¶
+3	La bonne posa son ouvrage et suivit Sophie à l’antichambre.
+4	Une caisse de bois blanc était posée sur une chaise ; la bonne l’ouvrit.
+5	Sophie aperçut la tête blonde et frisée d’une jolie poupée de cire ; elle poussa un cri de joie et voulut saisir la poupée, qui était encore couverte d’un papier d’emballage.
+¶ [la bonne]
+6	Prenez garde ! ne tirez pas encore ; vous allez tout casser.
+7	La poupée tient par des cordons.
+¶ [sophie]
+8	Cassez-les, arrachez-les ; vite, ma bonne, que j’aie ma poupée.
+¶
+9	La bonne, au lieu de tirer et d’arracher, prit ses ciseaux, coupa les cordons, enleva les papiers, et Sophie put prendre la plus jolie poupée qu’elle eût jamais vue.
+10	Les joues étaient roses avec de petites fossettes ; les yeux bleus et brillants ; le cou, la poitrine, les bras en cire, charmants et potelés.
+11	La toilette était très simple : une robe de percale festonnée, une ceinture bleue, des bas de coton et des brodequins noirs en peau vernie.
+¶
+12	Sophie l’embrassa plus de vingt fois, et, la tenant dans ses bras, elle se mit à sauter et à danser.
+13	Son cousin Paul, qui avait cinq ans, et qui était en visite chez Sophie, accourut aux cris de joie qu’elle poussait.
+¶
+14	« Paul, regarde quelle jolie poupée m’a envoyée papa ! s’écria Sophie.
+¶ [paul]
+15	Donne-la-moi, que je la voie mieux.
+¶ [sophie]
+16	Non, tu la casserais.
+¶ [paul]
+17	Je t’assure que j’y prendrai bien garde ; je te la rendrai tout de suite. »
+¶
+18	Sophie donna la poupée à son cousin, en lui recommandant encore de prendre bien garde de la faire tomber.
+19	Paul la retourna, la regarda de tous les côtés, puis la remit à Sophie en secouant la tête.
+¶ [sophie]
+20	Pourquoi secoues-tu la tête ?
+¶ [paul]
+21	Parce que cette poupée n’est pas solide ; je crains que tu ne la casses.
+¶ [sophie]
+22	Oh ! sois tranquille, je vais la soigner tant, tant que je ne la casserai jamais.
+23	Je vais demander à maman d’inviter Camille et Madeleine à déjeuner avec nous, pour leur faire voir ma jolie poupée.
+¶ [paul]
+24	Elles te la casseront.
+¶ [sophie]
+25	Non, elles sont trop bonnes pour me faire de la peine en cassant ma pauvre poupée.
+¶
+26	Le lendemain, Sophie peigna et habilla sa poupée, parce que ses amies devaient venir.
+27	En l’habillant, elle la trouva pâle.
+28	« Peut-être, dit-elle, a-t-elle froid, ses pieds sont glacés.
+29	Je vais la mettre un peu au soleil pour que mes amies voient que j’en ai bien soin et que je la tiens bien chaudement. »
+30	Sophie alla porter la poupée au soleil sur la fenêtre du salon.
+¶
+31	« Que fais-tu à la fenêtre, Sophie ? lui demanda sa maman.
+¶ [sophie]
+32	Je veux réchauffer ma poupée, maman ; elle a très froid.
+¶ [la maman]
+33	Prends garde, tu vas la faire fondre.
+¶ [sophie]
+34	Oh non ! maman, il n’y a pas de danger : elle est dure comme du bois.
+¶ [la maman]
+35	Mais la chaleur la rendra molle ; il lui arrivera quelque malheur, je t’en préviens. »
+¶
+36	Sophie ne voulut pas croire sa maman, elle mit la poupée étendue tout de son long au soleil, qui était brûlant.
+¶
+37	Au même instant elle entendit le bruit d’une voiture : c’étaient ses amies qui arrivaient.
+38	Elle courut au-devant d’elles ; Paul les avait attendues sur le perron ; elles entrèrent au salon en courant et parlant toutes à la fois.
+39	Malgré leur impatience de voir la poupée, elles commencèrent par dire bonjour à Mme de Réan, maman de Sophie ; elles allèrent ensuite à Sophie, qui tenait sa poupée et la regardait d’un air consterné.
+¶ [madeleine, regardant la poupée]
+40	La poupée est aveugle, elle n’a pas d’yeux.
+¶ [camille]
+41	Quel dommage ! comme elle est jolie !
+¶ [madeleine]
+42	Mais comment est-elle devenue aveugle !
+43	Elle devait avoir des yeux.
+¶
+44	Sophie ne disait rien ; elle regardait la poupée et pleurait.
+¶ [madame de réan]
+45	Je t’avais dit, Sophie, qu’il arriverait un malheur à ta poupée si tu t’obstinais à la mettre au soleil.
+46	Heureusement que la figure et les bras n’ont pas eu le temps de fondre.
+47	Voyons, ne pleure pas ; je suis très habile médecin, je pourrai peut-être lui rendre ses yeux.
+¶ [sophie, pleurant]
+48	C’est impossible, maman, ils n’y sont plus.
+¶
+49	Mme de Réan prit la poupée en souriant et la secoua un peu ; on entendit comme quelque chose qui roulait dans la tête.
+50	« Ce sont les yeux qui font le bruit que tu entends, dit Mme de Réan ; la cire a fondu autour des yeux, et ils sont tombés.
+51	Mais je tâcherai de les ravoir.
+52	Déshabillez la poupée, mes enfants, pendant que je préparerai mes instruments. »
+¶
+53	Aussitôt Paul et les trois petites filles se précipitèrent sur la poupée pour la déshabiller.
+54	Sophie ne pleurait plus ; elle attendait avec impatience ce qui allait arriver.
+¶
+55	La maman revint, prit ses ciseaux, détacha le corps cousu à la poitrine ;
+56	les yeux, qui étaient dans la tête, tombèrent sur ses genoux ;
+57	elle les prit avec des pinces, les replaça où ils devaient être, et, pour les empêcher de tomber encore, elle coula dans la tête, et sur la place où étaient les yeux, de la cire fondue qu’elle avait apportée dans une petite casserole ;
+58	elle attendit quelques instants que la cire fût refroidie, et puis elle recousit le corps à la tête.
+¶
+59	Les petites n’avaient pas bougé.
+60	Sophie regardait avec crainte toutes ces opérations, elle avait peur que ce ne fût pas bien ; mais, quand elle vit sa poupée raccommodée et aussi jolie qu’auparavant, elle sauta au cou de sa maman et l’embrassa dix fois.
+¶
+61	« Merci, ma chère maman, disait-elle, merci : une autre fois je vous écouterai, bien sûr. »
+¶
+62	On rhabilla bien vite la poupée, on l’assit sur un petit fauteuil et on l’emmena promener en triomphe en chantant :
+¶
+63	Vive maman !
+64	De baisers je la mange.
+65	Vive maman !
+66	Elle est notre bon ange.
+¶
+67	La poupée vécut très longtemps bien soignée, bien aimée ; mais petit à petit elle perdit ses charmes, voici comment.
+¶
+68	Un jour, Sophie pensa qu’il était bon de laver les poupées, puisqu’on lavait les enfants ;
+69	elle prit de l’eau, une éponge, du savon, et se mit à  débarbouiller sa poupée ;
+70	elle la débarbouilla si bien, qu’elle lui enleva toutes ses couleurs :
+71	les joues et les lèvres devinrent pâles comme si elle était malade, et restèrent toujours sans couleur.
+72	Sophie pleura, mais la poupée resta pâle.
+¶
+73	Un autre jour, Sophie pensa qu’il fallait lui friser les cheveux ; elle lui mit donc des papillotes : elle les passa au fer chaud, pour que les cheveux fussent mieux frisés.
+74	Quand elle lui ôta ses papillotes, les cheveux restèrent dedans ; le fer était trop chaud, Sophie avait brûlé les cheveux de sa poupée, qui était chauve.
+75	Sophie pleura, mais la poupée resta chauve.
+¶
+76	Un autre jour encore, Sophie, qui s’occupait beaucoup de l’éducation de sa poupée, voulut lui apprendre à faire des tours de force.
+77	Elle la suspendit par les bras à une ficelle ; la poupée, qui ne tenait pas bien, tomba et se cassa un bras.
+78	La maman essaya de la raccommoder ; mais, comme il manquait des morceaux, il fallut chauffer beaucoup la cire, et le bras resta plus court que l’autre.
+79	Sophie pleura, mais le bras resta plus court.
+¶
+80	Une autre fois, Sophie songea qu’un bain de pieds serait très utile à sa poupée, puisque les grandes personnes en prenaient.
+81	Elle versa de l’eau bouillante dans un petit seau, y plongea les pieds de la poupée, et, quand elle la retira, les pieds s’étaient fondus, et étaient dans le seau.
+82	Sophie pleura, mais la poupée resta sans jambes.
+¶
+83	Depuis tous ces malheurs, Sophie n’aimait plus sa poupée, qui était devenue affreuse, et dont ses amies se moquaient ;
+84	enfin, un dernier jour, Sophie voulut lui apprendre à grimper aux arbres ;
+85	elle la fit monter sur une branche, la fit asseoir ; mais la poupée, qui ne tenait pas bien, tomba :
+86	sa tête frappa contre des pierres et se cassa en cent morceaux.
+87	Sophie ne pleura pas, mais elle invita ses amies à venir enterrer sa poupée.

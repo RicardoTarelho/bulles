@@ -198,3 +198,5 @@ legend{font:800 22px/1.2 "Shantell Sans",cursive;margin-bottom:10px;padding:0}
 .sbact{display:flex;gap:2px;align-items:center}
 .sbact button{min-height:40px}
 @media (max-width:700px){.text{font-size:18px;padding:0 16px}.chap{padding:12px}}
+.text .wl{display:block;font:700 12.5px/1.4 Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);width:max-content;margin-bottom:2px}
+.text.all .wlt{font-size:12px;margin-top:0}

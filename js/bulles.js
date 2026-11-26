@@ -134,20 +134,22 @@ function drawLibrary(){
     return `<a class="card" href="#book-${esc(b.id)}">
       <div class="cover">${bookCover(b)}</div>
       <div class="cbody"><h2 lang="${esc(b.lang)}">${esc(b.title[b.lang])}</h2><p class="k">${esc(T(b.title, langs.know))} · ${esc(b.author)}</p>
-      <div class="meta">${lvTag(b.level)}<span>${b.chapters.length} tales</span><span>${done} read</span></div>
+      <div class="meta">${lvTag(b.level)}<span>${unitText(b)}</span><span>${done} read</span></div>
       <div class="prog"><i style="width:${Math.round(done / b.chapters.length * 100)}%"></i></div></div></a>`;
   }).join('');
   const others = (LIB.books || []).filter(b => b.lang !== langs.learn);
   $('#bookNote').textContent = books.length ? '' : others.length ? 'The first book, ' + others[0].title[others[0].lang] + ', is in ' + LN(others[0].lang) + '. Choose ' + LN(others[0].lang) + ' as the language you\'re learning to read it.' : '';
   fillCovers();
 }
+const unitText = b => b.chapters.length + (b.total > b.chapters.length ? ' of ' + b.total : '') + ' ' + (b.unit || 'tales');
 function bookCover(b){
-  const t = b.title[b.lang], i = t.indexOf(' de '), l1 = i > 0 ? t.slice(0, i) : t, l2 = i > 0 ? t.slice(i + 1) : '';
-  return `<svg viewBox="0 0 288 200" role="img" aria-label="${esc(t)}"><rect width="288" height="200" fill="#7b1e2c"/><rect x="12" y="12" width="264" height="176" fill="none" stroke="#e7c77d" stroke-width="2"/><rect x="19" y="19" width="250" height="162" fill="none" stroke="#e7c77d" stroke-width="1" opacity=".55"/>
+  const t = b.title[b.lang], m = t.match(/^(.*?)\s(de |d’)(.*)$/);
+  const l1 = m ? m[1] : t, l2 = m ? m[2] + m[3] : '';
+  return `<svg viewBox="0 0 288 200" role="img" aria-label="${esc(t)}"><rect width="288" height="200" fill="${esc(b.color || '#7b1e2c')}"/><rect x="12" y="12" width="264" height="176" fill="none" stroke="#e7c77d" stroke-width="2"/><rect x="19" y="19" width="250" height="162" fill="none" stroke="#e7c77d" stroke-width="1" opacity=".55"/>
     <path d="M144 34l5 9 10 1-7 7 2 10-10-5-10 5 2-10-7-7 10-1z" fill="#e7c77d"/>
     <text x="144" y="${l2 ? 104 : 116}" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="30" font-weight="600" fill="#f6e7bf">${esc(l1)}</text>
     ${l2 ? `<text x="144" y="138" text-anchor="middle" font-family="Literata, Georgia, serif" font-size="24" fill="#f6e7bf">${esc(l2)}</text>` : ''}
-    <text x="144" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" letter-spacing="3" fill="#e7c77d">${esc(b.author.toUpperCase())} · ${b.year}</text></svg>`;
+    <text x="144" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="${b.author.length > 20 ? 9 : 11}" letter-spacing="2" fill="#e7c77d">${esc(b.author.toUpperCase())} · ${b.year}</text></svg>`;
 }
 function fillCovers(){
   covers().then(c => document.querySelectorAll('[data-cover]').forEach(el => {
@@ -352,7 +354,8 @@ function drawBook(id){
   if (!b || b.lang !== langs.learn) { location.hash = 'library'; return; }
   const know = bookKnow(b);
   $('#bTitle').textContent = b.title[b.lang]; $('#bTitle').lang = b.lang;
-  $('#bBlurb').innerHTML = esc(T(b.blurb, langs.know) + ' ' + b.author + ', ' + b.year + '.') + '<br>' + lvTag(b.level)
+  $('#bBlurb').innerHTML = esc(T(b.blurb, langs.know) + ' ' + b.author + (b.translator ? ', translated into French by ' + b.translator : '') + ', ' + b.year + '.')
+    + (b.total > b.chapters.length ? ' <em>' + esc(unitText(b)) + ' so far, more coming.</em>' : '') + '<br>' + lvTag(b.level)
     + (know !== langs.know ? `<span class="swap">Sentences flip to ${esc(LN(know))}</span>` : '');
   const cont = b.chapters.find(c => { const p = chapterPct(b, c); return p > 0 && p < 100; }) || b.chapters.find(c => chapterPct(b, c) < 100) || b.chapters[0];
   $('#bGo').href = '#tale-' + b.id + '-' + cont.id;
@@ -387,10 +390,10 @@ async function openTale(bookId, chapId){
     `<p class="${p.poem ? 'poem' : 'para'}" data-p="${pi}" lang="${esc(b.lang)}">${p.s.map(s => {
       const k = tale.flat.push(s) - 1;
       return `<span class="s" data-i="${k}" tabindex="0" role="button">${esc(s[b.lang])}</span><span class="tr" lang="${esc(know)}">${esc(s[know] || s.en)}</span>`;
-    }).join(' ')}</p>`).join('');
+    }).join(' ')}</p>`.replace('">', '">' + (p.who ? (() => { const k = tale.flat.push(p.who) - 1; return `<span class="s wl" data-i="${k}" tabindex="0" role="button">${esc(p.who[b.lang])}</span><span class="tr wlt">${esc(p.who[know] || p.who.en)}</span>`; })() : ''))).join('');
   const i = b.chapters.indexOf(c), next = b.chapters[i + 1];
   $('#tEnd').innerHTML = `<h2>The end</h2><dl><dt>Text</dt><dd><a href="${esc(b.source)}">${esc(b.sourceName)}</a> · ${esc(b.license)}</dd>
-    <dt>Author</dt><dd>${esc(b.author)}, ${b.year}</dd><dt>${esc(LN(know))}</dt><dd>${esc(b.translations)}</dd></dl>
+    <dt>Author</dt><dd>${esc(b.author)}, ${b.year}${b.translator ? ' · French translation by ' + esc(b.translator) : ''}</dd><dt>${esc(LN(know))}</dt><dd>${esc(b.translations)}</dd></dl>
     <div class="next"><a href="#book-${esc(b.id)}">Contents</a>${next ? `<a class="go" href="#tale-${esc(b.id)}-${esc(next.id)}">Next: ${esc(T(next.title, b.lang))}</a>` : ''}</div>`;
   const key = 'book:' + b.id + '/' + c.id, paras = d.paras.length;
   if (taleObs) taleObs.disconnect();

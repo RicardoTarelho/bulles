@@ -1,0 +1,24 @@
+# L’ENTERREMENT
+¶
+0	Camille et Madeleine arrivèrent un matin pour l’enterrement de la poupée : elles étaient enchantées ; Sophie et Paul n’étaient pas moins heureux.
+¶ [sophie]
+1	Venez vite, mes amis, nous vous attendons pour faire le cercueil de la poupée.
+¶ [camille]
+2	Mais dans quoi la mettrons-nous ?
+¶ [sophie]
+3	J’ai une vieille boîte à joujoux ; ma bonne l’a recouverte de percale rose ; c’est très joli ; venez voir.
+¶
+4	Les petites coururent chez Mme de Réan, où la bonne finissait l’oreiller et le matelas qu’on devait mettre dans la boîte ;
+5	les enfants admirèrent ce charmant cercueil ; elles y mirent la poupée, et, pour qu’on ne vît pas la tête brisée, les pieds fondus et le bras cassé, elles la recouvrirent avec un petit couvre-pied de taffetas rose.
+¶
+6	On plaça la boîte sur un brancard que la maman leur avait fait faire.
+7	Elles voulaient toutes le porter ; c’était pourtant impossible, puisqu’il n’y avait place que pour deux.
+8	Après qu’ils se furent un peu poussés, disputés, on décida que Sophie et Paul, les deux plus petits, porteraient le brancard, et que Camille et Madeleine marcheraient l’une derrière, l’autre devant, portant un panier de fleurs et de feuilles qu’on devait jeter sur la tombe.
+¶
+9	Quand la procession arriva au petit jardin de Sophie, on posa par terre le brancard avec la boîte qui contenait les restes de la malheureuse poupée.
+10	Les enfants se mirent à creuser la fosse ; ils y descendirent la boîte, jetèrent dessus des fleurs et des feuilles, puis la terre qu’ils avaient retirée ; ils ratissèrent promptement tout autour et y plantèrent deux lilas.
+11	Pour terminer la fête, ils coururent au bassin du potager et y remplirent leurs petits arrosoirs pour arroser les lilas ;
+12	ce fut l’occasion de nouveaux jeux et de nouveaux rires, parce qu’on s’arrosait les jambes, qu’on se poursuivait et se sauvait en riant et en criant.
+13	On n’avait jamais vu un enterrement plus gai.
+14	Il est vrai que la morte était une vieille poupée, sans couleur, sans cheveux, sans jambes et sans tête, et que personne ne l’aimait ni ne la regrettait.
+15	La journée se termina gaiement ; et, lorsque Camille et Madeleine s’en allèrent, elles demandèrent à Paul et à Sophie de casser une autre poupée pour pouvoir recommencer un enterrement aussi amusant.

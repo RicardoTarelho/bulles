@@ -12,10 +12,12 @@ Portuguese, Spanish, German and Italian. Any of these can be the language you
 learn or the one you know. Episode 39 has no Portuguese or Italian translation yet, so for those
 its bubbles flip to English instead.
 
-**Contes de Perrault** by Charles Perrault (1697): four tales (Little Red Riding Hood,
-The Fairies, Puss in Boots, Cinderella) in the original French, from the 1886 Montréal
-edition on Wikisource (public domain). Tap any sentence to see it in English or
-Portuguese. Those translations were made with Claude for Bulles.
+**Books**, in French, from public-domain editions on Wikisource. Tap any sentence to see it
+in English or Portuguese. Those translations were made with Claude for Bulles.
+
+- *Contes de Perrault* by Charles Perrault (1697), B1–B2: 4 tales (Little Red Riding Hood, The Fairies, Puss in Boots, Cinderella, or the Little Glass Slipper).
+- *Les Malheurs de Sophie* by Comtesse de Ségur (1858), A2: 4 of 22 chapters so far (The wax doll, The funeral, The lime, The little fish).
+- *Contes d’Andersen* by Hans Christian Andersen (1876, French translation by David Soldi), A2–B1: 5 tales (The Princess and the Pea, The Emperor's New Clothes, The Little Match Girl, The Steadfast Tin Soldier, The Ugly Duckling).
 
 Every comic episode and every tale has an estimated CEFR level (A1–C2). Pick your
 own level on the start page and Bulles marks what is at your level, easy, a stretch
@@ -31,6 +33,7 @@ or hard. `tools/levels.py` explains how the levels are estimated.
 | `data/covers.js` | The small cover pictures for the episode list. |
 | `data/episodes/epNN/pages.js` | One episode's artwork, plus where every bubble is and what it says in each language. |
 | `data/episodes/epNN/<language>.js` | One language's speech bubbles for that episode (fr, en, pt, es, de, it). |
+| `data/books/<book>/<chapter>.js` | One book chapter or tale: the French sentences with their English and Portuguese translations. |
 | `tools/` | The scripts that rebuild `data/` from the sources. |
 | `CREDITS.md` | Who made the comics, and the licence. |
 
@@ -50,4 +53,4 @@ made by the Pepper&Carrot volunteer translators.
 1. Download the episode sources from https://www.peppercarrot.com/0_sources/ into one folder (one folder per episode).
 2. Run `python tools/build_series.py <that folder> .` (needs Python with numpy, scipy and Pillow).
 
-`tools/build_book.py` builds the book from its text and translations; `tools/build_library.py` holds the shared code for reading the bubble layers, SVGs and transcripts.
+`tools/build_book.py` builds the Perrault tales and `tools/build_books.py` the other books, from the texts and translations in `tools/book-batch/`; `tools/build_library.py` holds the shared code for reading the bubble layers, SVGs and transcripts.

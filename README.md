@@ -9,9 +9,10 @@ and it flips into a language you already know, right on the page.
 
 **Pepper&Carrot** by David Revoy: all 39 published episodes, in French, English,
 Portuguese and Spanish. Any of these can be the language you learn or the one
-you know.
+you know. Episode 39 has no Portuguese version upstream yet, so it is skipped
+when you learn Portuguese and flips to English when Portuguese is the one you know.
 
-**Books**, from public-domain French editions on Wikisource. Read any of them in French, English or Portuguese,
+**Books**, from public-domain French editions on Wikisource. Read any of them in French, English, Portuguese or Spanish,
 and tap a sentence to see it in another of those languages. The French is the original;
 the other languages were translated sentence by sentence with Claude for Bulles.
 

@@ -3,6 +3,7 @@ import json, sys, glob
 b, c = sys.argv[1], sys.argv[2]; name = f'{b}__{c}'
 parts = sorted(glob.glob(f'/home/claude/books2/tr_es/parts/{name}.*.json'))
 out = json.load(open(parts[0]))
+if b == 'sophie': out['who'] = {**json.load(open('/home/claude/books2/who_es_sophie.json')), **out.get('who', {})}
 for p in parts[1:]:
     d = json.load(open(p)); out['es'] += d['es']; out.setdefault('who', {}).update(d.get('who', {}))
 s = open(f'/home/claude/w/data/books/{b}/{c}.js').read(); d = json.loads(s[s.index('(')+1:s.rindex(')')])

@@ -1,241 +1,219 @@
 # None
 ¶
-0	LA CHÈVRE DE M.
-1	SEGUIN À M.
-2	Pierre Gringoire, poète lyrique à Paris.
+0	À M. Pierre Gringoire, poète lyrique à Paris.
 ¶
-3	Tu seras bien toujours le même, mon pauvre Gringoire !
+1	Tu seras bien toujours le même, mon pauvre Gringoire !
 ¶
-4	Comment ! on t’offre une place de chroniqueur dans un bon journal de Paris, et tu as l’aplomb de refuser…
-5	Mais regarde-toi, malheureux garçon !
-6	Regarde ce pourpoint troué, ces chausses en déroute, cette face maigre qui crie la faim.
-7	Voilà pourtant où t’a conduit la passion des belles rimes !
-8	Voilà ce que t’ont valu dix ans de loyaux services dans les pages du sire Apollo…
-9	Est-ce que tu n’as pas honte, à la fin ?
+2	Comment ! on t’offre une place de chroniqueur dans un bon journal de Paris, et tu as l’aplomb de refuser…
+3	Mais regarde-toi, malheureux garçon !
+4	Regarde ce pourpoint troué, ces chausses en déroute, cette face maigre qui crie la faim.
+5	Voilà pourtant où t’a conduit la passion des belles rimes !
+6	Voilà ce que t’ont valu dix ans de loyaux services dans les pages du sire Apollo…
+7	Est-ce que tu n’as pas honte, à la fin ?
 ¶
-10	Fais-toi donc chroniqueur, imbécile ! fais-toi chroniqueur !
-11	Tu gagneras de beaux écus à la rose, tu auras ton couvert chez Brébant, et tu pourras te montrer les jours de première avec une plume neuve à ta barrette…
+8	Fais-toi donc chroniqueur, imbécile ! fais-toi chroniqueur !
+9	Tu gagneras de beaux écus à la rose, tu auras ton couvert chez Brébant, et tu pourras te montrer les jours de première avec une plume neuve à ta barrette…
 ¶
-12	Non ?
-13	Tu ne veux pas ?…
-14	Tu prétends rester libre à ta guise jusqu’au bout…
-15	Eh bien, écoute un peu l’histoire de la chèvre de M.
-16	Seguin.
-17	Tu verras ce que l’on gagne à vouloir vivre libre.
+10	Non ?
+11	Tu ne veux pas ?…
+12	Tu prétends rester libre à ta guise jusqu’au bout…
+13	Eh bien, écoute un peu l’histoire de la chèvre de M. Seguin.
+14	Tu verras ce que l’on gagne à vouloir vivre libre.
 ¶
-18	M.
-19	Seguin n’avait jamais eu de bonheur avec ses chèvres.
+15	M. Seguin n’avait jamais eu de bonheur avec ses chèvres.
 ¶
-20	Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde, s’en allaient dans la montagne, et là-haut le loup les mangeait.
-21	Ni les caresses de leur maître, ni la peur du loup, rien ne les retenait.
-22	C’était, paraît-il, des chèvres indépendantes, voulant à tout prix le grand air et la liberté.
+16	Il les perdait toutes de la même façon : un beau matin, elles cassaient leur corde, s’en allaient dans la montagne, et là-haut le loup les mangeait.
+17	Ni les caresses de leur maître, ni la peur du loup, rien ne les retenait.
+18	C’était, paraît-il, des chèvres indépendantes, voulant à tout prix le grand air et la liberté.
 ¶
-23	Le brave M.
-24	Seguin, qui ne comprenait rien au caractère de ses bêtes, était consterné.
-25	Il disait :
+19	Le brave M. Seguin, qui ne comprenait rien au caractère de ses bêtes, était consterné.
+20	Il disait :
 ¶
-26	— C’est fini ; les chèvres s’ennuient chez moi, je n’en garderai pas une.
+21	— C’est fini ; les chèvres s’ennuient chez moi, je n’en garderai pas une.
 ¶
-27	Cependant il ne se découragea pas, et, après avoir perdu six chèvres de la même manière, il en acheta une septième ;
-28	seulement, cette fois, il eut soin de la prendre toute jeune, pour qu’elle s’habituât mieux à demeurer chez lui.
+22	Cependant il ne se découragea pas, et, après avoir perdu six chèvres de la même manière, il en acheta une septième ;
+23	seulement, cette fois, il eut soin de la prendre toute jeune, pour qu’elle s’habituât mieux à demeurer chez lui.
 ¶
-29	Ah !
-30	Gringoire, qu’elle était jolie la petite chèvre de M.
-31	Seguin ! qu’elle était jolie avec ses yeux doux, sa barbiche de sous-officier, ses sabots noirs et luisants, ses cornes zébrées et ses longs poils blancs qui lui faisaient une houppelande !
-32	C’était presque aussi charmant que le cabri d’Esméralda, tu te rappelles, Gringoire ?
-33	— et puis, docile, caressante, se laissant traire sans bouger, sans mettre son pied dans l’écuelle.
-34	Un amour de petite chèvre…
+24	Ah !
+25	Gringoire, qu’elle était jolie la petite chèvre de M. Seguin ! qu’elle était jolie avec ses yeux doux, sa barbiche de sous-officier, ses sabots noirs et luisants, ses cornes zébrées et ses longs poils blancs qui lui faisaient une houppelande !
+26	C’était presque aussi charmant que le cabri d’Esméralda, tu te rappelles, Gringoire ?
+27	— et puis, docile, caressante, se laissant traire sans bouger, sans mettre son pied dans l’écuelle.
+28	Un amour de petite chèvre…
 ¶
-35	M.
-36	Seguin avait derrière sa maison un clos entouré d’aubépines.
-37	C’est là qu’il mit sa nouvelle pensionnaire.
-38	Il l’attacha à un pieu, au plus bel endroit du pré, en ayant soin de lui laisser beaucoup de corde, et de temps en temps il venait voir si elle était bien.
-39	La chèvre se trouvait très heureuse et broutait l’herbe de si bon cœur que M.
-40	Seguin était ravi.
+29	M. Seguin avait derrière sa maison un clos entouré d’aubépines.
+30	C’est là qu’il mit sa nouvelle pensionnaire.
+31	Il l’attacha à un pieu, au plus bel endroit du pré, en ayant soin de lui laisser beaucoup de corde, et de temps en temps il venait voir si elle était bien.
+32	La chèvre se trouvait très heureuse et broutait l’herbe de si bon cœur que M. Seguin était ravi.
 ¶
-41	— Enfin, pensait le pauvre homme, en voilà une qui ne s’ennuiera pas chez moi !
+33	— Enfin, pensait le pauvre homme, en voilà une qui ne s’ennuiera pas chez moi !
 ¶
-42	M.
-43	Seguin se trompait, sa chèvre s’ennuya.
+34	M. Seguin se trompait, sa chèvre s’ennuya.
 ¶
-44	Un jour, elle se dit en regardant la montagne :
+35	Un jour, elle se dit en regardant la montagne :
 ¶
-45	— Comme on doit être bien là-haut !
-46	Quel plaisir de gambader dans la bruyère, sans cette maudite longe qui vous écorche le cou !…
-47	C’est bon pour l’âne ou pour le bœuf de brouter dans un clos !…
-48	Les chèvres, il leur faut du large.
+36	— Comme on doit être bien là-haut !
+37	Quel plaisir de gambader dans la bruyère, sans cette maudite longe qui vous écorche le cou !…
+38	C’est bon pour l’âne ou pour le bœuf de brouter dans un clos !…
+39	Les chèvres, il leur faut du large.
 ¶
-49	À partir de ce moment, l’herbe du clos lui parut fade.
-50	L’ennui lui vint.
-51	Elle maigrit, son lait se fit rare.
-52	C’était pitié de la voir tirer tout le jour sur sa longe, la tête tournée du côté de la montagne, la narine ouverte, en faisant Mê !… tristement.
+40	À partir de ce moment, l’herbe du clos lui parut fade.
+41	L’ennui lui vint.
+42	Elle maigrit, son lait se fit rare.
+43	C’était pitié de la voir tirer tout le jour sur sa longe, la tête tournée du côté de la montagne, la narine ouverte, en faisant Mê !… tristement.
 ¶
-53	M.
-54	Seguin s’apercevait bien que sa chèvre avait quelque chose, mais il ne savait pas ce que c’était…
-55	Un matin, comme il achevait de la traire, la chèvre se retourna et lui dit dans son patois :
+44	M. Seguin s’apercevait bien que sa chèvre avait quelque chose, mais il ne savait pas ce que c’était…
+45	Un matin, comme il achevait de la traire, la chèvre se retourna et lui dit dans son patois :
 ¶
-56	— Écoutez, monsieur Seguin, je me languis chez vous, laissez-moi aller dans la montagne.
+46	— Écoutez, monsieur Seguin, je me languis chez vous, laissez-moi aller dans la montagne.
 ¶
-57	— Ah ! mon Dieu !…
-58	Elle aussi ! cria M.
-59	Seguin stupéfait, et du coup il laissa tomber son écuelle ; puis, s’asseyant dans l’herbe à côté de sa chèvre :
+47	— Ah ! mon Dieu !…
+48	Elle aussi ! cria M. Seguin stupéfait, et du coup il laissa tomber son écuelle ; puis, s’asseyant dans l’herbe à côté de sa chèvre :
 ¶
-60	— Comment Blanquette, tu veux me quitter !
+49	— Comment Blanquette, tu veux me quitter !
 ¶
-61	Et Blanquette répondit :
+50	Et Blanquette répondit :
 ¶
-62	— Oui, monsieur Seguin.
+51	— Oui, monsieur Seguin.
 ¶
-63	— Est-ce que l’herbe te manque ici ?
+52	— Est-ce que l’herbe te manque ici ?
 ¶
-64	— Oh ! non ! monsieur Seguin.
+53	— Oh ! non ! monsieur Seguin.
 ¶
-65	— Tu es peut-être attachée de trop court ; veux-tu que j’allonge la corde !
+54	— Tu es peut-être attachée de trop court ; veux-tu que j’allonge la corde !
 ¶
-66	— Ce n’est pas la peine, monsieur Seguin.
+55	— Ce n’est pas la peine, monsieur Seguin.
 ¶
-67	— Alors, qu’est-ce qu’il te faut ! qu’est-ce que tu veux ?
+56	— Alors, qu’est-ce qu’il te faut ! qu’est-ce que tu veux ?
 ¶
-68	— Je veux aller dans la montagne, monsieur Seguin.
+57	— Je veux aller dans la montagne, monsieur Seguin.
 ¶
-69	— Mais, malheureuse, tu ne sais pas qu’il y a le loup dans la montagne…
-70	Que feras-tu quand il viendra ?…
+58	— Mais, malheureuse, tu ne sais pas qu’il y a le loup dans la montagne…
+59	Que feras-tu quand il viendra ?…
 ¶
-71	— Je lui donnerai des coups de corne, monsieur Seguin.
+60	— Je lui donnerai des coups de corne, monsieur Seguin.
 ¶
-72	— Le loup se moque bien de tes cornes.
-73	Il m’a mangé des biques autrement encornées que toi…
-74	Tu sais bien, la pauvre vieille Renaude qui était ici l’an dernier ? une maîtresse chèvre, forte et méchante comme un bouc.
-75	Elle s’est battue avec le loup toute la nuit… puis, le matin, le loup l’a mangée.
+61	— Le loup se moque bien de tes cornes.
+62	Il m’a mangé des biques autrement encornées que toi…
+63	Tu sais bien, la pauvre vieille Renaude qui était ici l’an dernier ? une maîtresse chèvre, forte et méchante comme un bouc.
+64	Elle s’est battue avec le loup toute la nuit… puis, le matin, le loup l’a mangée.
 ¶
-76	— Pécaïre !
-77	Pauvre Renaude !…
-78	Ça ne fait rien, monsieur Seguin, laissez-moi aller dans la montagne.
+65	— Pécaïre !
+66	Pauvre Renaude !…
+67	Ça ne fait rien, monsieur Seguin, laissez-moi aller dans la montagne.
 ¶
-79	— Bonté divine !… dit M.
-80	Seguin ; mais qu’est-ce qu’on leur fait donc à mes chèvres ?
-81	Encore une que le loup va me manger…
-82	Eh bien, non… je te sauverai malgré toi, coquine ! et de peur que tu ne rompes ta corde, je vais t’enfermer dans l’étable, et tu y resteras toujours.
+68	— Bonté divine !… dit M. Seguin ; mais qu’est-ce qu’on leur fait donc à mes chèvres ?
+69	Encore une que le loup va me manger…
+70	Eh bien, non… je te sauverai malgré toi, coquine ! et de peur que tu ne rompes ta corde, je vais t’enfermer dans l’étable, et tu y resteras toujours.
 ¶
-83	Là-dessus, M.
-84	Seguin emporta la chèvre dans une étable toute noire, dont il ferma la porte à double tour.
-85	Malheureusement, il avait oublié la fenêtre, et à peine eut-il le dos tourné, que la petite s’en alla…
+71	Là-dessus, M. Seguin emporta la chèvre dans une étable toute noire, dont il ferma la porte à double tour.
+72	Malheureusement, il avait oublié la fenêtre, et à peine eut-il le dos tourné, que la petite s’en alla…
 ¶
-86	Tu ris, Gringoire ?
-87	Parbleu ! je crois bien ; tu es du parti des chèvres, toi, contre ce bon M.
-88	Seguin…
-89	Nous allons voir si tu riras tout à l’heure.
-¶
-90	Quand la chèvre blanche arriva dans la montagne, ce fut un ravissement général.
-91	Jamais les vieux sapins n’avaient rien vu d’aussi joli.
-92	On la reçut comme une petite reine.
-93	Les châtaigniers se baissaient jusqu’à terre pour la caresser du bout de leurs branches.
-94	Les genêts d’or s’ouvraient sur son passage, et sentaient bon tant qu’ils pouvaient.
-95	Toute la montagne lui fit fête.
+73	Tu ris, Gringoire ?
+74	Parbleu ! je crois bien ; tu es du parti des chèvres, toi, contre ce bon M. Seguin…
+75	Nous allons voir si tu riras tout à l’heure.
 ¶
-96	Tu penses, Gringoire, si notre chèvre était heureuse !
-97	Plus de corde, plus de pieu… rien qui l’empêchât de gambader, de brouter à sa guise…
-98	C’est là qu’il y en avait de l’herbe ! jusque par-dessus les cornes, mon cher !…
-99	Et quelle herbe !
-100	Savoureuse, fine, dentelée, faite de mille plantes…
-101	C’était bien autre chose que le gazon du clos.
-102	Et les fleurs donc !…
-103	De grandes campanules bleues, des digitales de pourpre à longs calices, toute une forêt de fleurs sauvages débordant de sucs capiteux !…
+76	Quand la chèvre blanche arriva dans la montagne, ce fut un ravissement général.
+77	Jamais les vieux sapins n’avaient rien vu d’aussi joli.
+78	On la reçut comme une petite reine.
+79	Les châtaigniers se baissaient jusqu’à terre pour la caresser du bout de leurs branches.
+80	Les genêts d’or s’ouvraient sur son passage, et sentaient bon tant qu’ils pouvaient.
+81	Toute la montagne lui fit fête.
 ¶
-104	La chèvre blanche, à moitié soûle, se vautrait là dedans les jambes en l’air et roulait le long des talus, pêle-mêle avec les feuilles tombées et les châtaignes…
-105	Puis, tout à coup, elle se redressait d’un bond sur ses pattes.
-106	Hop ! la voilà partie, la tête en avant, à travers les maquis et les buissières, tantôt sur un pic, tantôt au fond d’un ravin, là-haut, en bas, partout…
-107	On aurait dit qu’il y avait dix chèvres de M.
-108	Seguin dans la montagne.
+82	Tu penses, Gringoire, si notre chèvre était heureuse !
+83	Plus de corde, plus de pieu… rien qui l’empêchât de gambader, de brouter à sa guise…
+84	C’est là qu’il y en avait de l’herbe ! jusque par-dessus les cornes, mon cher !…
+85	Et quelle herbe !
+86	Savoureuse, fine, dentelée, faite de mille plantes…
+87	C’était bien autre chose que le gazon du clos.
+88	Et les fleurs donc !…
+89	De grandes campanules bleues, des digitales de pourpre à longs calices, toute une forêt de fleurs sauvages débordant de sucs capiteux !…
 ¶
-109	C’est qu’elle n’avait peur de rien la Blanquette.
+90	La chèvre blanche, à moitié soûle, se vautrait là dedans les jambes en l’air et roulait le long des talus, pêle-mêle avec les feuilles tombées et les châtaignes…
+91	Puis, tout à coup, elle se redressait d’un bond sur ses pattes.
+92	Hop ! la voilà partie, la tête en avant, à travers les maquis et les buissières, tantôt sur un pic, tantôt au fond d’un ravin, là-haut, en bas, partout…
+93	On aurait dit qu’il y avait dix chèvres de M. Seguin dans la montagne.
 ¶
-110	Elle franchissait d’un saut de grands torrents qui l’éclaboussaient au passage de poussière humide et d’écume.
-111	Alors, toute ruisselante, elle allait s’étendre sur quelque roche plate et se faisait sécher par le soleil…
-112	Une fois, s’avançant au bord d’un plateau, une fleur de cytise aux dents, elle aperçut en bas, tout en bas dans la plaine, la maison de M.
-113	Seguin avec le clos derrière.
-114	Cela la fit rire aux larmes.
+94	C’est qu’elle n’avait peur de rien la Blanquette.
 ¶
-115	— Que c’est petit ! dit-elle ; comment ai-je pu tenir là dedans ?
+95	Elle franchissait d’un saut de grands torrents qui l’éclaboussaient au passage de poussière humide et d’écume.
+96	Alors, toute ruisselante, elle allait s’étendre sur quelque roche plate et se faisait sécher par le soleil…
+97	Une fois, s’avançant au bord d’un plateau, une fleur de cytise aux dents, elle aperçut en bas, tout en bas dans la plaine, la maison de M. Seguin avec le clos derrière.
+98	Cela la fit rire aux larmes.
 ¶
-116	Pauvrette ! de se voir si haut perchée, elle se croyait au moins aussi grande que le monde…
+99	— Que c’est petit ! dit-elle ; comment ai-je pu tenir là dedans ?
 ¶
-117	En somme, ce fut une bonne journée pour la chèvre de M.
-118	Seguin.
-119	Vers le milieu du jour, en courant de droite et de gauche, elle tomba dans une troupe de chamois en train de croquer une lambrusque à belles dents.
-120	Notre petite coureuse en robe blanche fit sensation.
-121	On lui donna la meilleure place à la lambrusque, et tous ces messieurs furent très galants…
-122	Il paraît même, — ceci doit rester entre nous, Gringoire, — qu’un jeune chamois à pelage noir, eut la bonne fortune de plaire à Blanquette.
-123	Les deux amoureux s’égarèrent parmi le bois une heure ou deux, et si tu veux savoir ce qu’ils se dirent, va le demander aux sources bavardes qui courent invisibles dans la mousse.
+100	Pauvrette ! de se voir si haut perchée, elle se croyait au moins aussi grande que le monde…
 ¶
-124	Tout à coup le vent fraîchit.
-125	La montagne devint violette ; c’était le soir…
+101	En somme, ce fut une bonne journée pour la chèvre de M. Seguin.
+102	Vers le milieu du jour, en courant de droite et de gauche, elle tomba dans une troupe de chamois en train de croquer une lambrusque à belles dents.
+103	Notre petite coureuse en robe blanche fit sensation.
+104	On lui donna la meilleure place à la lambrusque, et tous ces messieurs furent très galants…
+105	Il paraît même, — ceci doit rester entre nous, Gringoire, — qu’un jeune chamois à pelage noir, eut la bonne fortune de plaire à Blanquette.
+106	Les deux amoureux s’égarèrent parmi le bois une heure ou deux, et si tu veux savoir ce qu’ils se dirent, va le demander aux sources bavardes qui courent invisibles dans la mousse.
 ¶
-126	— Déjà ! dit la petite chèvre ; et elle s’arrêta fort étonnée.
+107	Tout à coup le vent fraîchit.
+108	La montagne devint violette ; c’était le soir…
 ¶
-127	En bas, les champs étaient noyés de brume.
-128	Le clos de M.
-129	Seguin disparaissait dans le brouillard, et de la maisonnette on ne voyait plus que le toit avec un peu de fumée.
-130	Elle écouta les clochettes d’un troupeau qu’on ramenait, et se sentit l’âme toute triste…
-131	Un gerfaut, qui rentrait, la frôla de ses ailes en passant.
-132	Elle tressaillit… puis ce fut un hurlement dans la montagne :
+109	— Déjà ! dit la petite chèvre ; et elle s’arrêta fort étonnée.
 ¶
-133	— Hou ! hou !
+110	En bas, les champs étaient noyés de brume.
+111	Le clos de M. Seguin disparaissait dans le brouillard, et de la maisonnette on ne voyait plus que le toit avec un peu de fumée.
+112	Elle écouta les clochettes d’un troupeau qu’on ramenait, et se sentit l’âme toute triste…
+113	Un gerfaut, qui rentrait, la frôla de ses ailes en passant.
+114	Elle tressaillit… puis ce fut un hurlement dans la montagne :
 ¶
-134	Elle pensa au loup ; de tout le jour la folle n’y avait pas pensé…
-135	Au même moment une trompe sonna bien loin dans la vallée.
-136	C’était ce bon M.
-137	Seguin qui tentait un dernier effort.
+115	— Hou ! hou !
 ¶
-138	— Hou ! hou !… faisait le loup.
+116	Elle pensa au loup ; de tout le jour la folle n’y avait pas pensé…
+117	Au même moment une trompe sonna bien loin dans la vallée.
+118	C’était ce bon M. Seguin qui tentait un dernier effort.
 ¶
-139	— Reviens ! reviens !… criait la trompe.
+119	— Hou ! hou !… faisait le loup.
 ¶
-140	Blanquette eut envie de revenir ; mais en se rappelant le pieu, la corde, la haie du clos, elle pensa que maintenant elle ne pouvait plus se faire à cette vie, et qu’il valait mieux rester.
+120	— Reviens ! reviens !… criait la trompe.
 ¶
-141	La trompe ne sonnait plus…
+121	Blanquette eut envie de revenir ; mais en se rappelant le pieu, la corde, la haie du clos, elle pensa que maintenant elle ne pouvait plus se faire à cette vie, et qu’il valait mieux rester.
 ¶
-142	La chèvre entendit derrière elle un bruit de feuilles.
-143	Elle se retourna et vit dans l’ombre deux oreilles courtes, toutes droites, avec deux yeux qui reluisaient…
-144	C’était le loup.
+122	La trompe ne sonnait plus…
 ¶
-145	Énorme, immobile, assis sur son train de derrière, il était là regardant la petite chèvre blanche et la dégustant par avance.
-146	Comme il savait bien qu’il la mangerait, le loup ne se pressait pas ; seulement, quand elle se retourna, il se mit à rire méchamment.
+123	La chèvre entendit derrière elle un bruit de feuilles.
+124	Elle se retourna et vit dans l’ombre deux oreilles courtes, toutes droites, avec deux yeux qui reluisaient…
+125	C’était le loup.
 ¶
-147	— Ha ! ha ! la petite chèvre de M.
-148	Seguin ! et il passa sa grosse langue rouge sur ses babines d’amadou.
+126	Énorme, immobile, assis sur son train de derrière, il était là regardant la petite chèvre blanche et la dégustant par avance.
+127	Comme il savait bien qu’il la mangerait, le loup ne se pressait pas ; seulement, quand elle se retourna, il se mit à rire méchamment.
 ¶
-149	Blanquette se sentit perdue…
-150	Un moment en se rappelant l’histoire de la vieille Renaude, qui s’était battue toute la nuit pour être mangée le matin, elle se dit qu’il vaudrait peut-être mieux se laisser manger tout de suite ;
-151	puis, s’étant ravisée, elle tomba en garde, la tête basse et la corne en avant, comme une brave chèvre de M.
-152	Seguin qu’elle était…
-153	Non pas qu’elle eût l’espoir de tuer le loup, — les chèvres ne tuent pas le loup, — mais seulement pour voir si elle pourrait tenir aussi longtemps que la Renaude…
+128	— Ha ! ha ! la petite chèvre de M. Seguin ! et il passa sa grosse langue rouge sur ses babines d’amadou.
 ¶
-154	Alors le monstre s’avança, et les petites cornes entrèrent en danse.
+129	Blanquette se sentit perdue…
+130	Un moment en se rappelant l’histoire de la vieille Renaude, qui s’était battue toute la nuit pour être mangée le matin, elle se dit qu’il vaudrait peut-être mieux se laisser manger tout de suite ;
+131	puis, s’étant ravisée, elle tomba en garde, la tête basse et la corne en avant, comme une brave chèvre de M. Seguin qu’elle était…
+132	Non pas qu’elle eût l’espoir de tuer le loup, — les chèvres ne tuent pas le loup, — mais seulement pour voir si elle pourrait tenir aussi longtemps que la Renaude…
 ¶
-155	Ah ! la brave chevrette, comme elle y allait de bon cœur !
-156	Plus de dix fois, je ne mens pas, Gringoire, elle força le loup à reculer pour reprendre haleine.
-157	Pendant ces trêves d’une minute, la gourmande cueillait en hâte encore un brin de sa chère herbe ; puis elle retournait au combat, la bouche pleine…
-158	Cela dura toute la nuit.
-159	De temps en temps la chèvre de M.
-160	Seguin regardait les étoiles danser dans le ciel clair, et elle se disait :
+133	Alors le monstre s’avança, et les petites cornes entrèrent en danse.
 ¶
-161	— Oh ! pourvu que je tienne jusqu’à l’aube…
+134	Ah ! la brave chevrette, comme elle y allait de bon cœur !
+135	Plus de dix fois, je ne mens pas, Gringoire, elle força le loup à reculer pour reprendre haleine.
+136	Pendant ces trêves d’une minute, la gourmande cueillait en hâte encore un brin de sa chère herbe ; puis elle retournait au combat, la bouche pleine…
+137	Cela dura toute la nuit.
+138	De temps en temps la chèvre de M. Seguin regardait les étoiles danser dans le ciel clair, et elle se disait :
 ¶
-162	L’une après l’autre, les étoiles s’éteignirent.
-163	Blanquette redoubla de coups de cornes, le loup de coups de dents…
-164	Une lueur pâle parut dans l’horizon…
-165	Le chant d’un coq enroué monta d’une métairie.
+139	— Oh ! pourvu que je tienne jusqu’à l’aube…
 ¶
-166	— Enfin ! dit la pauvre bête, qui n’attendait plus que le jour pour mourir ; et elle s’allongea par terre dans sa belle fourrure blanche toute tachée de sang…
+140	L’une après l’autre, les étoiles s’éteignirent.
+141	Blanquette redoubla de coups de cornes, le loup de coups de dents…
+142	Une lueur pâle parut dans l’horizon…
+143	Le chant d’un coq enroué monta d’une métairie.
 ¶
-167	Alors le loup se jeta sur la petite chèvre et la mangea.
+144	— Enfin ! dit la pauvre bête, qui n’attendait plus que le jour pour mourir ; et elle s’allongea par terre dans sa belle fourrure blanche toute tachée de sang…
 ¶
-168	Adieu, Gringoire !
+145	Alors le loup se jeta sur la petite chèvre et la mangea.
 ¶
-169	L’histoire que tu as entendue n’est pas un conte de mon invention.
-170	Si jamais tu viens en Provence, nos ménagers te parleront souvent de la cabro de moussu Seguin, que se battégue touto la neui emé lou loup, e piei lou matin lou loup la mangé.
+146	Adieu, Gringoire !
 ¶
-171	Tu m’entends bien, Gringoire :
+147	L’histoire que tu as entendue n’est pas un conte de mon invention.
+148	Si jamais tu viens en Provence, nos ménagers te parleront souvent de la cabro de moussu Seguin, que se battégue touto la neui emé lou loup, e piei lou matin lou loup la mangé.
 ¶
-172	E piei lou matin lou loup la mangé.
+149	Tu m’entends bien, Gringoire :
+¶
+150	E piei lou matin lou loup la mangé.

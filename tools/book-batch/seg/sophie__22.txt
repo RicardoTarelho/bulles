@@ -2,181 +2,180 @@
 ¶
 0	« Paul, dit un jour Sophie, pourquoi ma tante d’Aubert et maman causent-elles toujours tout bas ?
 1	Maman pleure et ma tante aussi ; sais-tu pourquoi ?
-¶ [paul]
+¶
 2	Non, je ne sais pas du tout ; pourtant j’ai entendu l’autre jour maman qui disait à ma tante :
 3	« Ce serait terrible d’abandonner nos parents, nos amis, notre pays » ;
 4	ma tante a répondu : « Surtout pour un pays comme l’Amérique. »
-¶ [sophie]
+¶
 5	Eh bien ! qu’est-ce que cela veut dire ?
-¶ [paul]
+¶
 6	Je crois que cela veut dire que maman et ma tante veulent aller en Amérique.
-¶ [sophie]
+¶
 7	Mais ce n’est pas du tout terrible ; au contraire, ce sera très amusant.
 8	Nous verrons des tortues en Amérique.
-¶ [paul]
+¶
 9	Et des oiseaux superbes ; des corbeaux rouges, orange, bleus, violets, roses, et pas comme nos affreux corbeaux noirs.
-¶ [sophie]
+¶
 10	Et des perroquets et des oiseaux-mouches.
 11	Maman m’a dit qu’il y en avait beaucoup en Amérique.
-¶ [paul]
+¶
 12	Et puis des sauvages noirs, jaunes, rouges.
-¶ [sophie]
+¶
 13	Oh ! pour les sauvages, j’en aurai peur ; ils nous mangeraient peut-être.
-¶ [paul]
+¶
 14	Mais nous n’irions pas demeurer chez eux ; nous les verrions seulement quand ils viendraient se promener dans les villes.
-¶ [sophie]
+¶
 15	Mais pourquoi irions-nous en Amérique ?
 16	Nous sommes très bien ici.
-¶ [paul]
+¶
 17	Certainement.
 18	Je te vois très souvent, notre château est tout près du tien.
 19	Ce qui serait mieux encore, c’est que nous demeurions ensemble en Amérique.
 20	Oh ! alors, j’aimerais bien l’Amérique.
-¶ [sophie]
+¶
 21	Tiens, voilà maman qui se promène avec ma tante ; elles pleurent encore ; cela me fait de la peine de les voir pleurer…
 22	Les voilà qui s’assoient sur le banc.
 23	Allons les consoler.
-¶ [paul]
+¶
 24	Mais comment les consolerons-nous ?
-¶ [sophie]
+¶
 25	Je n’en sais rien : mais essayons toujours. »
 ¶
 26	Les enfants coururent à leurs mamans.
 ¶
 27	« Chère maman, dit Sophie, pourquoi pleurez-vous ?
-¶ [madame de réan]
+¶
 28	Pour quelque chose qui me fait de la peine, chère petite, et que tu ne peux comprendre.
-¶ [sophie]
+¶
 29	Si fait, maman, je comprends très bien que cela vous fait de la peine d’aller en Amérique, parce que vous croyez que j’en serais très fâchée.
 30	D’abord, puisque ma tante et Paul viennent avec nous, nous serons très heureux.
 31	Ensuite, j’aime beaucoup l’Amérique, c’est un très joli pays. »
 ¶
 32	Mme de Réan regarda d’abord sa sœur, Mme d’Aubert, d’un air étonné, et puis ne put s’empêcher de sourire quand Sophie parla de l’Amérique, qu’elle ne connaissait pas du tout.
-¶ [madame de réan]
+¶
 33	Qui t’a dit que nous allions en Amérique ?
 34	Et pourquoi crois-tu que ce soit cela qui nous donne du chagrin ?
-¶ [paul]
+¶
 35	Oh ! ma tante, c’est que je vous ai entendue parler d’aller en Amérique, et vous pleuriez ; mais je vous assure que Sophie a raison et que nous serons très heureux en Amérique, si nous demeurons ensemble.
-¶ [madame d’aubert]
+¶
 36	Oui, mes chers enfants, vous avez deviné.
 37	Nous devons bien réellement aller en Amérique.
-¶ [paul]
+¶
 38	Et pourquoi donc, maman ?
-¶ [madame d’aubert]
-39	Parce qu’un de nos amis, M.
-40	Fichini, qui vivait en Amérique, vient de mourir : il n’avait pas de parents, il était très riche ; il nous a laissé toute sa fortune.
-41	Ton père et celui de Sophie sont obligés d’aller en Amérique pour avoir cette fortune ;
-42	ta tante et moi, nous ne voulons pas les laisser partir seuls, et pourtant nous sommes tristes de quitter nos parents, nos amis, nos terres.
-¶ [sophie]
-43	Mais ce ne sera pas pour toujours, n’est-ce pas ?
-¶ [madame de réan]
-44	Non, mais pour un an ou deux, peut-être.
-¶ [sophie]
-45	Eh bien, maman, il ne faut pas pleurer pour cela.
-46	Pensez donc que ma tante et Paul seront avec nous tout ce temps-là.
-47	Et puis, papa et mon oncle seront bien contents de ne plus être seuls.
 ¶
-48	Mme de Réan et Mme d’Aubert embrassèrent leurs enfants.
+39	Parce qu’un de nos amis, M. Fichini, qui vivait en Amérique, vient de mourir : il n’avait pas de parents, il était très riche ; il nous a laissé toute sa fortune.
+40	Ton père et celui de Sophie sont obligés d’aller en Amérique pour avoir cette fortune ;
+41	ta tante et moi, nous ne voulons pas les laisser partir seuls, et pourtant nous sommes tristes de quitter nos parents, nos amis, nos terres.
 ¶
-49	« Ils ont pourtant raison, ces enfants ! dit-elle à sa sœur, nous serons ensemble, et deux ans seront bien vite passés. »
+42	Mais ce ne sera pas pour toujours, n’est-ce pas ?
 ¶
-50	Depuis ce jour elles ne pleurèrent plus.
+43	Non, mais pour un an ou deux, peut-être.
 ¶
-51	« Vois-tu, dit Sophie à Paul, que nous les avons consolées !
-52	J’ai remarqué que les enfants consolent très facilement leurs mamans.
+44	Eh bien, maman, il ne faut pas pleurer pour cela.
+45	Pensez donc que ma tante et Paul seront avec nous tout ce temps-là.
+46	Et puis, papa et mon oncle seront bien contents de ne plus être seuls.
 ¶
-53	— C’est parce qu’elles les aiment », répondit Paul.
+47	Mme de Réan et Mme d’Aubert embrassèrent leurs enfants.
 ¶
-54	Peu de jours après, les enfants allèrent avec leurs mamans faire une visite d’adieu à leurs amies, Camille et Madeleine de Fleurville, qui furent très étonnées d’apprendre que Sophie et Paul allaient partir pour l’Amérique.
+48	« Ils ont pourtant raison, ces enfants ! dit-elle à sa sœur, nous serons ensemble, et deux ans seront bien vite passés. »
 ¶
-55	« Combien de temps y resterez-vous ? demanda Camille.
-¶ [sophie]
-56	Deux ans, je crois.
-57	C’est si loin !
-¶ [paul]
-58	Quand nous reviendrons, Sophie aura six ans et moi huit ans.
-¶ [madeleine]
-59	Et moi j’aurai huit ans aussi, et Camille neuf ans !
-¶ [sophie]
-60	Que tu seras vieille, Camille ! neuf ans !
-¶ [camille]
-61	Rapporte-nous de jolies choses d’Amérique, des choses curieuses.
-¶ [sophie]
-62	Veux-tu que je te rapporte une tortue ?
-¶ [madeleine]
-63	Quelle horreur !
-64	Une tortue ! c’est si bête et si laid ! »
+49	Depuis ce jour elles ne pleurèrent plus.
 ¶
-65	Paul ne peut s’empêcher de rire.
+50	« Vois-tu, dit Sophie à Paul, que nous les avons consolées !
+51	J’ai remarqué que les enfants consolent très facilement leurs mamans.
 ¶
-66	« Pourquoi ris-tu, Paul ? demanda Camille.
-¶ [paul]
-67	C’est parce que Sophie avait une tortue et qu’elle s’est fâchée un jour contre moi parce que je lui disais absolument ce que tu viens de dire.
-¶ [camille]
-68	Et qu’est-elle devenue, cette tortue ?
-¶ [paul]
-69	Elle est morte après un bain que nous lui avons fait prendre dans la mare.
-¶ [camille]
-70	Pauvre bête !
-71	Je regrette de ne l’avoir pas vue. »
+52	— C’est parce qu’elles les aiment », répondit Paul.
 ¶
-72	Sophie, qui n’aimait pas qu’on parlât de la tortue, proposa de cueillir des bouquets dans les champs : Camille leur offrit d’aller plutôt cueillir des fraises dans le bois.
-73	Ils acceptèrent tous avec plaisir et en trouvèrent beaucoup, qu’ils mangeaient à mesure qu’ils les trouvaient.
-74	Ils restèrent deux heures à s’amuser, après quoi il fallut se séparer.
-75	Sophie et Paul promirent de rapporter d’Amérique des fruits, des fleurs, des oiseaux-mouches, des perroquets.
-76	Sophie promit même d’apporter un petit sauvage, si on voulait bien lui en vendre un.
-77	Les jours suivants, ils continuèrent à faire des visites d’adieu, puis commencèrent les paquets.
-78	M. de Réan et M. d’Aubert attendaient à Paris leurs femmes et leurs enfants.
+53	Peu de jours après, les enfants allèrent avec leurs mamans faire une visite d’adieu à leurs amies, Camille et Madeleine de Fleurville, qui furent très étonnées d’apprendre que Sophie et Paul allaient partir pour l’Amérique.
 ¶
-79	Le jour du départ fut un triste jour.
-80	Sophie et Paul même pleurèrent en quittant le château, les domestiques, les gens du village.
+54	« Combien de temps y resterez-vous ? demanda Camille.
 ¶
-81	« Peut-être, pensaient-ils, ne reviendrons-nous jamais ! »
+55	Deux ans, je crois.
+56	C’est si loin !
 ¶
-82	Tous ces pauvres gens avaient la même pensée, et tous étaient tristes.
+57	Quand nous reviendrons, Sophie aura six ans et moi huit ans.
 ¶
-83	Les mamans et les enfants montèrent dans une voiture attelée de quatre chevaux de poste ; les bonnes et les femmes de chambre suivaient, dans une calèche attelée de trois chevaux : il y avait un domestique sur chaque siège.
-84	Après s’être arrêtés une heure en route pour déjeuner, ils arrivèrent à Paris pour dîner.
-85	On ne devait rester à Paris que huit jours, afin d’acheter tout ce qui était nécessaire pour le voyage et pour le temps qu’on croyait passer en Amérique.
+58	Et moi j’aurai huit ans aussi, et Camille neuf ans !
 ¶
-86	Pendant ces huit jours, les enfants s’amusèrent beaucoup.
-87	Ils allèrent avec leurs mamans se promener au Bois de Boulogne, aux Tuileries, au Jardin des Plantes ;
-88	ils allaient acheter toutes sortes de choses : des habits, des chapeaux, des souliers, des gants, des livres d’histoire, des joujoux, des provisions pour la route.
-89	Sophie avait envie de toutes les bêtes qu’elle voyait à vendre : elle demanda même à acheter la petite girafe du Jardin des Plantes.
-90	Paul avait envie de tous les livres, de toutes les images.
-91	On leur acheta à chacun un petit sac de voyage pour leurs affaires de toilette, leurs provisions de la journée et leurs joujoux, comme dominos, cartes, jonchets, etc.
+59	Que tu seras vieille, Camille ! neuf ans !
 ¶
-92	Enfin arriva le jour tant désiré du départ pour le Havre, port où ils devaient monter sur le navire qui les menait en Amérique.
-93	Ils surent, en arrivant au Havre, que leur navire, la Sibylle, ne devait partir que dans trois jours.
-94	On profita de ces trois jours pour se promener dans la ville :
-95	le bruit, le mouvement des rues, les bassins pleins de vaisseaux, les quais couverts de marchands, de perroquets, de singes, de toutes sortes de choses venant d’Amérique, amusaient beaucoup les enfants.
-96	Si Mme de Réan avait écouté Sophie, elle lui aurait acheté une dizaine de singes, autant de perroquets, de perruches, etc.
-97	Mais elle refusa tout, malgré les prières de Sophie.
+60	Rapporte-nous de jolies choses d’Amérique, des choses curieuses.
 ¶
-98	Ces trois jours passèrent comme avaient passé les huit jours à Paris, comme avaient passé les quatre années de la vie de Sophie, les six années de celle de Paul : ils passèrent pour ne plus revenir.
-99	Mme de Réan et Mme d’Aubert pleuraient de quitter leur chère et belle France : M. de Réan et M. d’Aubert étaient tristes et cherchaient à consoler leurs femmes en leur promettant de les ramener le plus tôt possible.
-100	Sophie et Paul étaient enchantés : leur seul chagrin était de voir pleurer leurs mamans.
-101	Ils entrèrent dans le navire qui devait les emporter si loin, au milieu des orages et des dangers de la mer.
-102	Quelques heures après, ils étaient établis dans leurs cabines, qui étaient de petites chambres contenant chacune deux lits, leurs malles et les choses nécessaires pour la toilette.
-103	Sophie coucha avec Mme de Réan, Paul avec Mme d’Aubert, les deux papas ensemble.
-104	Ils mangeaient tous à la table du capitaine, qui aimait beaucoup Sophie : elle lui rappelait Marguerite, qui restait en France.
-105	Le capitaine jouait souvent avec Paul et Sophie : il leur expliquait tout ce qui les étonnait dans le vaisseau, comment il marchait sur l’eau, comment on l’aidait à avancer en ouvrant les voiles, et bien d’autres choses encore.
+61	Veux-tu que je te rapporte une tortue ?
 ¶
-106	Paul disait toujours :
+62	Quelle horreur !
+63	Une tortue ! c’est si bête et si laid ! »
 ¶
-107	« Je serai marin quand je serai grand : je voyagerai avec le capitaine.
+64	Paul ne peut s’empêcher de rire.
 ¶
-108	— Pas du tout, répondait Sophie ; je ne veux pas que tu sois marin : tu resteras toujours avec moi.
-¶ [paul]
-109	Pourquoi ne reviendrais-tu pas avec moi sur le vaisseau du capitaine ?
-¶ [sophie]
-110	Parce que je ne veux pas quitter maman : je resterai toujours avec elle, et toi, tu resteras avec moi, entends-tu ?
-¶ [paul]
-111	J’entends.
-112	Je resterai, puisque tu le veux. »
+65	« Pourquoi ris-tu, Paul ? demanda Camille.
 ¶
-113	Le voyage fut long : il dura bien des jours.
-114	Si vous désirez savoir ce que devint Sophie, demandez à vos mamans de vous faire lire les Petites filles modèles, où vous retrouverez Sophie.
-115	Si vous voulez savoir ce qu’est devenu Paul, vous le saurez en lisant les Vacances, où vous le retrouverez.
+66	C’est parce que Sophie avait une tortue et qu’elle s’est fâchée un jour contre moi parce que je lui disais absolument ce que tu viens de dire.
 ¶
-116	fin
+67	Et qu’est-elle devenue, cette tortue ?
+¶
+68	Elle est morte après un bain que nous lui avons fait prendre dans la mare.
+¶
+69	Pauvre bête !
+70	Je regrette de ne l’avoir pas vue. »
+¶
+71	Sophie, qui n’aimait pas qu’on parlât de la tortue, proposa de cueillir des bouquets dans les champs : Camille leur offrit d’aller plutôt cueillir des fraises dans le bois.
+72	Ils acceptèrent tous avec plaisir et en trouvèrent beaucoup, qu’ils mangeaient à mesure qu’ils les trouvaient.
+73	Ils restèrent deux heures à s’amuser, après quoi il fallut se séparer.
+74	Sophie et Paul promirent de rapporter d’Amérique des fruits, des fleurs, des oiseaux-mouches, des perroquets.
+75	Sophie promit même d’apporter un petit sauvage, si on voulait bien lui en vendre un.
+76	Les jours suivants, ils continuèrent à faire des visites d’adieu, puis commencèrent les paquets.
+77	M. de Réan et M. d’Aubert attendaient à Paris leurs femmes et leurs enfants.
+¶
+78	Le jour du départ fut un triste jour.
+79	Sophie et Paul même pleurèrent en quittant le château, les domestiques, les gens du village.
+¶
+80	« Peut-être, pensaient-ils, ne reviendrons-nous jamais ! »
+¶
+81	Tous ces pauvres gens avaient la même pensée, et tous étaient tristes.
+¶
+82	Les mamans et les enfants montèrent dans une voiture attelée de quatre chevaux de poste ; les bonnes et les femmes de chambre suivaient, dans une calèche attelée de trois chevaux : il y avait un domestique sur chaque siège.
+83	Après s’être arrêtés une heure en route pour déjeuner, ils arrivèrent à Paris pour dîner.
+84	On ne devait rester à Paris que huit jours, afin d’acheter tout ce qui était nécessaire pour le voyage et pour le temps qu’on croyait passer en Amérique.
+¶
+85	Pendant ces huit jours, les enfants s’amusèrent beaucoup.
+86	Ils allèrent avec leurs mamans se promener au Bois de Boulogne, aux Tuileries, au Jardin des Plantes ;
+87	ils allaient acheter toutes sortes de choses : des habits, des chapeaux, des souliers, des gants, des livres d’histoire, des joujoux, des provisions pour la route.
+88	Sophie avait envie de toutes les bêtes qu’elle voyait à vendre : elle demanda même à acheter la petite girafe du Jardin des Plantes.
+89	Paul avait envie de tous les livres, de toutes les images.
+90	On leur acheta à chacun un petit sac de voyage pour leurs affaires de toilette, leurs provisions de la journée et leurs joujoux, comme dominos, cartes, jonchets, etc.
+¶
+91	Enfin arriva le jour tant désiré du départ pour le Havre, port où ils devaient monter sur le navire qui les menait en Amérique.
+92	Ils surent, en arrivant au Havre, que leur navire, la Sibylle, ne devait partir que dans trois jours.
+93	On profita de ces trois jours pour se promener dans la ville :
+94	le bruit, le mouvement des rues, les bassins pleins de vaisseaux, les quais couverts de marchands, de perroquets, de singes, de toutes sortes de choses venant d’Amérique, amusaient beaucoup les enfants.
+95	Si Mme de Réan avait écouté Sophie, elle lui aurait acheté une dizaine de singes, autant de perroquets, de perruches, etc.
+96	Mais elle refusa tout, malgré les prières de Sophie.
+¶
+97	Ces trois jours passèrent comme avaient passé les huit jours à Paris, comme avaient passé les quatre années de la vie de Sophie, les six années de celle de Paul : ils passèrent pour ne plus revenir.
+98	Mme de Réan et Mme d’Aubert pleuraient de quitter leur chère et belle France : M. de Réan et M. d’Aubert étaient tristes et cherchaient à consoler leurs femmes en leur promettant de les ramener le plus tôt possible.
+99	Sophie et Paul étaient enchantés : leur seul chagrin était de voir pleurer leurs mamans.
+100	Ils entrèrent dans le navire qui devait les emporter si loin, au milieu des orages et des dangers de la mer.
+101	Quelques heures après, ils étaient établis dans leurs cabines, qui étaient de petites chambres contenant chacune deux lits, leurs malles et les choses nécessaires pour la toilette.
+102	Sophie coucha avec Mme de Réan, Paul avec Mme d’Aubert, les deux papas ensemble.
+103	Ils mangeaient tous à la table du capitaine, qui aimait beaucoup Sophie : elle lui rappelait Marguerite, qui restait en France.
+104	Le capitaine jouait souvent avec Paul et Sophie : il leur expliquait tout ce qui les étonnait dans le vaisseau, comment il marchait sur l’eau, comment on l’aidait à avancer en ouvrant les voiles, et bien d’autres choses encore.
+¶
+105	Paul disait toujours :
+¶
+106	« Je serai marin quand je serai grand : je voyagerai avec le capitaine.
+¶
+107	— Pas du tout, répondait Sophie ; je ne veux pas que tu sois marin : tu resteras toujours avec moi.
+¶
+108	Pourquoi ne reviendrais-tu pas avec moi sur le vaisseau du capitaine ?
+¶
+109	Parce que je ne veux pas quitter maman : je resterai toujours avec elle, et toi, tu resteras avec moi, entends-tu ?
+¶
+110	J’entends.
+111	Je resterai, puisque tu le veux. »
+¶
+112	Le voyage fut long : il dura bien des jours.
+113	Si vous désirez savoir ce que devint Sophie, demandez à vos mamans de vous faire lire les Petites filles modèles, où vous retrouverez Sophie.
+114	Si vous voulez savoir ce qu’est devenu Paul, vous le saurez en lisant les Vacances, où vous le retrouverez.
+¶
+115	fin

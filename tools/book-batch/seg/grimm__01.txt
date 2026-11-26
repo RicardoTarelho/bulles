@@ -43,7 +43,7 @@
 30	Le chien ajouta : « En effet, quelques os avec un peu de viande ne me déplairaient pas. »
 ¶
 31	Ils se dirigèrent donc vers le point d’où partait la lumière ; bientôt ils la virent briller davantage et s’agrandir, jusqu’à ce qu’enfin ils arrivèrent en face d’une maison de brigands parfaitement éclairée.
-32	L’âne, comme le plus grand, s’approcha de la fe- nêtre et regarda en dedans du logis.
+32	L’âne, comme le plus grand, s’approcha de la fenêtre et regarda en dedans du logis.
 33	« Que vois-tu là, grison ? lui demanda le coq.
 ¶
 34	— Ce que je vois ? dit l’âne ; une table chargée de mets et de boisson, et alentour des brigands qui s’en donnent à cœur joie.
@@ -63,8 +63,8 @@
 44	L’âne se coucha sur le fumier, le chien derrière la porte, le chat dans le foyer près de la cendre chaude, le coq sur une solive ;
 45	et, comme ils étaient fatigués de leur longue marche, ils ne tardèrent pas à s’endormir.
 46	Après minuit, quand les voleurs aperçurent de loin qu’il n’y avait plus de clarté dans leur maison et que tout y paraissait tranquille, le capitaine dit :
-47	« Nous n’aurions pas dû pourtant nous laisser ainsi mettre en déroute ;
-48	» et il ordonna à un de ses gens d’aller reconnaître ce qui se passait dans la maison.
+47	« Nous n’aurions pas dû pourtant nous laisser ainsi mettre en déroute ; »
+48	et il ordonna à un de ses gens d’aller reconnaître ce qui se passait dans la maison.
 49	Celui qu’il envoyait trouva tout en repos ; il entra dans la cuisine et voulut allumer de la lumière ;
 50	il prit donc une allumette, et comme les yeux brillants et enflammés du chat lui paraissaient deux charbons ardents, il en approcha l’allumette pour qu’elle prît feu.
 51	Mais le chat n’entendait pas raillerie ; il lui sauta au visage et l’égratigna en jurant.
@@ -73,7 +73,7 @@
 54	comme il passait dans la cour à côté du fumier, l’âne lui détacha une ruade violente avec ses pieds de derrière, tandis que le coq, réveillé par le bruit et déjà tout alerte, criait du haut de sa solive : Kikeriki !
 ¶
 55	Le voleur courut à toutes jambes vers son capitaine et dit :
-56	a II y a dans notre maison une affreuse sorcière qui a soufflé sur moi et m’a égratigné la figure avec ses longs doigts ;
+56	« Il y a dans notre maison une affreuse sorcière qui a soufflé sur moi et m’a égratigné la figure avec ses longs doigts ;
 57	devant la porte est un homme armé d’un couteau, dont il m’a piqué la jambe ;
 58	dans la cour se tient un monstre noir, qui m’a assommé d’un coup de massue, et au haut du toit est posé le juge qui criait :
 59	« Amenez devant moi ce pendard. »
